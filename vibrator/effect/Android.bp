@@ -1,0 +1,14 @@
+cc_library_shared {
+    name: "libqtivibratoreffect.oplus.lafa",
+    header_libs: [
+        "libqtivibratoreffect_headers",
+    ],
+    shared_libs: [
+        "libcutils",
+        "libutils",
+    ],
+    srcs: [
+	"effect.cpp",
+    ],
+    vendor: true,
+}
