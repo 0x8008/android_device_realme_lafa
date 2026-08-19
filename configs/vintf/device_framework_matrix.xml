@@ -1,0 +1,17 @@
+<compatibility-matrix version="4.0" type="framework">
+    <!--
+         lafa ships the Pixelworks Iris7p display HAL at AIDL version 3.
+         hardware/oplus's shared matrix only covers versions 1-2, so the
+         v3 instance declared by
+         /odm/etc/vintf/manifest/vendor.pixelworks.hardware.display-service.xml
+         has to be allowed here.
+    -->
+    <hal format="aidl" optional="true">
+        <name>vendor.pixelworks.hardware.display</name>
+        <version>3</version>
+        <interface>
+            <name>IIris</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
