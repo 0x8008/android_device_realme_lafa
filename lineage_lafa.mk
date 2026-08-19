@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+#
+# Bring-up: force debuggable userdebug so we can run adb root / pull logs
+# on the very first boot even if panel/fingerprint/etc are broken.
+# (Lineage common.mk otherwise sets PRODUCT_NOT_DEBUGGABLE_IN_USERDEBUG=true)
+WITH_ADB_INSECURE := true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
