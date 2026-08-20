@@ -15,7 +15,7 @@ include device/oneplus/sm8850-common/BoardConfigCommon.mk
 DEVICE_PATH := device/realme/lafa
 
 # Assert (verified against device)
-TARGET_OTA_ASSERT_DEVICE := RMX5200,RMX5210
+TARGET_OTA_ASSERT_DEVICE := RE6030L1
 
 # Display
 TARGET_SCREEN_DENSITY := 640
