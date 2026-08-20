@@ -287,11 +287,7 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M 0,80
-        M -42,80
-        A 34,34 90 1,0 42,80
-        A 34,34 90 1,0 -42,80
-        Z
+        M -44,0 L -44,137 L 44,137 L 44,0 Z
     </string>
 
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
@@ -301,11 +297,7 @@
          config_mainBuiltInDisplayCutout
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M -39,0
-        L -39,141
-        L 38,141
-        L 39,0
-        Z
+        M -44,0 L -44,137 L 44,137 L 44,0 Z
     </string>
 
     <!-- Whether the display cutout region of the main built-in display should be forced to
@@ -316,6 +308,6 @@
     <!-- The stable device width and height in pixels. If these aren't set to a positive number
          then the device will use the width and height of the default display the first time it's
          booted.  -->
-    <integer name="config_stableDeviceDisplayWidth">1272</integer>
-    <integer name="config_stableDeviceDisplayHeight">2772</integer>
+    <integer name="config_stableDeviceDisplayWidth">1440</integer>
+    <integer name="config_stableDeviceDisplayHeight">3136</integer>
 </resources>
