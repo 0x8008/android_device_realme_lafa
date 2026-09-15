@@ -20,6 +20,9 @@ TARGET_OTA_ASSERT_DEVICE := RE6030L1
 # Display
 TARGET_SCREEN_DENSITY := 640
 
+# IPACM is supplied by the common stock vendor tree.
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+
 # Kernel
 ifeq ($(USE_PREBUILT_KERNEL), true)
 include device/realme/lafa-kernel/BoardConfig.mk

@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# The stock HALs provide their own binaries, init scripts and VINTF fragments.
+$(call soong_config_set_bool,lafa,use_stock_hal,true)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
