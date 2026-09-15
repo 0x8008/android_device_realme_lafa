@@ -4,7 +4,7 @@ For **RMX5200 / lafa**, with an **unlocked bootloader**. Other variants are
 unverified. This ROM includes firmware from RMX5200_16.0.9.402(CN01).
 Use current [Google platform-tools](https://developer.android.com/tools/releases/platform-tools).
 
-Download the release ROM ZIP. For a first install, also download its recovery
+Download the ROM ZIP listed in [RELEASE.md](RELEASE.md). For a first install, also download its recovery
 image and `super-reset-lafa-0x467000000-sparse.img`. Rename the ROM to `rom.zip`
 and the recovery to `recovery.img`; put the files beside `adb` and `fastboot`.
 Open a terminal in that folder.

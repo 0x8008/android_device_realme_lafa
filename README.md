@@ -22,8 +22,9 @@ validated configuration; the inherited source-kernel option is untested.
 
 ## Install and release status
 
-See [FLASHING.md](FLASHING.md) for installation and updates, and
-[CHANGELOG.md](CHANGELOG.md) for the September 15 release.
+See [RELEASE.md](RELEASE.md) for the release files and checksums,
+[FLASHING.md](FLASHING.md) for installation and updates, and
+[CHANGELOG.md](CHANGELOG.md) for the September 15 changes.
 
 The ROM boots on the tested RMX5200. The integrated realme Camera now saves
 correctly colored photos, switches rear lenses, and saves playable standard
