@@ -303,7 +303,8 @@
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
          -->
-    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <!-- The physical punch-hole does not need a software cutout mask. -->
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 
     <!-- The stable device width and height in pixels. If these aren't set to a positive number
          then the device will use the width and height of the default display the first time it's

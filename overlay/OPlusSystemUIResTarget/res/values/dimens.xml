@@ -7,6 +7,10 @@
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">24dp</dimen>
 
+    <!-- Portrait alignment values from the final overlay build on 2026-08-21. -->
+    <dimen name="status_bar_padding_top">36px</dimen>
+    <dimen name="status_bar_bottom_aligned_margin_rotation_0">29px</dimen>
+
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
 
