@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 15 (CPH2745_16.0.9.400(EX01)).
+## are from realme GT 8 Pro (RMX5200_16.0.9.402(CN01)) - lafa.
 
 abl.img;AB
 aop.img;AB
