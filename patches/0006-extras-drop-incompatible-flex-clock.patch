@@ -1,0 +1,16 @@
+diff --git a/evolution.mk b/evolution.mk
+index c370cc0..67e3358 100644
+--- a/evolution.mk
++++ b/evolution.mk
+@@ -14,10 +14,10 @@ PRODUCT_PACKAGES += \
+ endif
+ 
+ # Clocks (SystemUI)
++# Flex still uses the Android 16 clock API and crashes the Android 17 wallpaper picker.
+ PRODUCT_PACKAGES += \
+     SystemUIClocks-BigNum \
+     SystemUIClocks-Calligraphy \
+-    SystemUIClocks-Flex \
+     SystemUIClocks-Growth \
+     SystemUIClocks-Inflate \
+     SystemUIClocks-Metro \

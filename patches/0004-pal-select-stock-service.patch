@@ -1,0 +1,28 @@
+diff --git a/ipc/aidl/palnotifierserver/Android.bp b/ipc/aidl/palnotifierserver/Android.bp
+index 9c8a3480b..c64fa9456 100644
+--- a/ipc/aidl/palnotifierserver/Android.bp
++++ b/ipc/aidl/palnotifierserver/Android.bp
+@@ -1,5 +1,9 @@
+ cc_library_shared {
+     name: "libpaleventnotifier",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     owner: "qti",
+     vendor: true,
+ 
+diff --git a/ipc/aidl/server/Android.bp b/ipc/aidl/server/Android.bp
+index fc80b2a6c..fc57bea3f 100644
+--- a/ipc/aidl/server/Android.bp
++++ b/ipc/aidl/server/Android.bp
+@@ -1,5 +1,9 @@
+ cc_library_shared {
+     name: "libpalipcservice",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     owner: "qti",
+     vendor: true,
+ 

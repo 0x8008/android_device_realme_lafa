@@ -1,2 +1,7 @@
 *.bak-*
 *.orig-*
+*.bak
+*.orig
+*.rej
+__pycache__/
+*.py[cod]

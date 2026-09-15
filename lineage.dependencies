@@ -1,6 +1,26 @@
 [
   {
-    "repository": "android_device_oneplus_sm8850-common",
-    "target_path": "device/oneplus/sm8850-common"
+    "repository": "OnePlus-SM8850-Development/android_device_oneplus_sm8850-common",
+    "target_path": "device/oneplus/sm8850-common",
+    "remote": "github-non-los",
+    "revision": "d3346d749025e3dd15322d9b7799d737d9e6aa59"
+  },
+  {
+    "repository": "0x8008/android_device_realme_lafa-kernel",
+    "target_path": "device/realme/lafa-kernel",
+    "remote": "github-non-los",
+    "revision": "b588a5431f458339b56ac43755bf069f097f865c"
+  },
+  {
+    "repository": "OnePlus-SM8850-Development/android_hardware_oplus",
+    "target_path": "hardware/oplus",
+    "remote": "github-non-los",
+    "revision": "c50a8a104c7d15b1070731f79fea6927fc0ee428"
+  },
+  {
+    "repository": "OnePlus-SM8850-Development/proprietary_vendor_oneplus_sm8850-common",
+    "target_path": "vendor/oneplus/sm8850-common",
+    "remote": "github-non-los",
+    "revision": "654d01a92760ac61aec745172d90809e27d2288b"
   }
 ]

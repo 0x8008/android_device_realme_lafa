@@ -1,0 +1,103 @@
+diff --git a/composer/Android.bp b/composer/Android.bp
+index 169a97f1f4..d6535b29d3 100644
+--- a/composer/Android.bp
++++ b/composer/Android.bp
+@@ -77,6 +77,10 @@ cc_defaults {
+ 
+ cc_binary {
+     name: "vendor.qti.hardware.display.composer-service",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: [
+         "qtidisplay_defaults",
+         "composer-service_defaults",
+@@ -110,6 +114,10 @@ cc_binary {
+ 
+ prebuilt_etc {
+     name: "vendor.qti.hardware.display.composer-service.rc",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     src: "vendor.qti.hardware.display.composer-service.rc",
+     filename_from_src: true,
+     sub_dir: "init",
+@@ -118,6 +126,10 @@ prebuilt_etc {
+ 
+ prebuilt_etc_xml {
+     name: "vendor.qti.hardware.display.composer-service.xml",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     src: select(soong_config_variable("qtidisplay", "composer_version"), {
+         "v3_4": "vendor.qti.hardware.display.composer-service3_v4.xml",
+         "v3_3": "vendor.qti.hardware.display.composer-service3_v3.xml",
+diff --git a/gralloc/Android.bp b/gralloc/Android.bp
+index 2d30dadf7b..a9079fe87a 100644
+--- a/gralloc/Android.bp
++++ b/gralloc/Android.bp
+@@ -248,6 +248,10 @@ qtimapperext_cc_defaults {
+ //mapper5
+ cc_library_shared {
+     name: "mapper.qti",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: [
+         "qtidisplay_common_defaults",
+         "mapperext_defaults",
+@@ -290,6 +294,10 @@ cc_library_shared {
+ // Allocator
+ cc_binary {
+     name: "vendor.qti.hardware.display.allocator-service",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: ["qtidisplay_alloc_defaults"],
+     sanitize: {
+         integer_overflow: true,
+diff --git a/init/Android.bp b/init/Android.bp
+index 560a3473dd..774497478f 100644
+--- a/init/Android.bp
++++ b/init/Android.bp
+@@ -1,5 +1,9 @@
+ prebuilt_etc {
+     name: "init.qti.display_boot.rc",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     src: "init.qti.display_boot.rc",
+     sub_dir: "init",
+     vendor: true,
+@@ -7,6 +11,10 @@ prebuilt_etc {
+ 
+ sh_binary {
+     name: "init.qti.display_boot.sh",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     src: "init.qti.display_boot.sh",
+     vendor: true,
+ }
+diff --git a/oem_services/Android.bp b/oem_services/Android.bp
+index c292beb092..ef04a10a8d 100644
+--- a/oem_services/Android.bp
++++ b/oem_services/Android.bp
+@@ -38,6 +38,10 @@ cc_library_shared {
+ 
+ cc_binary {
+     name: "vendor.qti.hardware.display.demura-service",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: ["qtidisplay_defaults"],
+     sanitize: {
+         integer_overflow: true,

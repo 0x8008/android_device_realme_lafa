@@ -1,0 +1,14 @@
+diff --git a/ipc/aidl/server/Android.bp b/ipc/aidl/server/Android.bp
+index dcfcb5b9..f9b7d2fe 100644
+--- a/ipc/aidl/server/Android.bp
++++ b/ipc/aidl/server/Android.bp
+@@ -1,5 +1,9 @@
+ cc_library_shared {
+     name: "libagmipcservice",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     owner: "qti",
+     vendor: true,
+ 

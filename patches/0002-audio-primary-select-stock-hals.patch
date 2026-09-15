@@ -1,0 +1,135 @@
+diff --git a/adsprpcd/Android.bp b/adsprpcd/Android.bp
+index 8847f2e6f..98e5d5742 100644
+--- a/adsprpcd/Android.bp
++++ b/adsprpcd/Android.bp
+@@ -1,5 +1,9 @@
+ cc_binary {
+     name: "audioadsprpcd",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+ 
+     srcs: ["adsprpcd.c"],
+ 
+diff --git a/hal/default/Android.bp b/hal/default/Android.bp
+index b2241f973..64a71c271 100644
+--- a/hal/default/Android.bp
++++ b/hal/default/Android.bp
+@@ -1,5 +1,9 @@
+ cc_library_shared {
+     name: "libaudiocorehal.default",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: [
+         "latest_android_hardware_audio_core_ndk_shared",
+         "latest_android_media_audio_common_types_ndk_shared",
+@@ -48,6 +52,10 @@ cc_library_shared {
+ 
+ prebuilt_etc {
+     name: "manifest_audiocorehal_default.xml",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     src: "manifest_audiocorehal_default.xml",
+     filename_from_src: true,
+     sub_dir: "vintf/manifest",
+diff --git a/hal/effects/Android.bp b/hal/effects/Android.bp
+index aaaca52bd..8f42cce1a 100644
+--- a/hal/effects/Android.bp
++++ b/hal/effects/Android.bp
+@@ -49,6 +49,10 @@ cc_library_static {
+ 
+ cc_library_shared {
+     name: "libaudioeffecthal.qti",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: ["aidlaudioeffectserviceqti_defaults"],
+     owner: "qti",
+     relative_install_path: "hw",
+@@ -81,6 +85,10 @@ cc_library_headers {
+ 
+ prebuilt_etc {
+     name: "audioeffectservice_qti.xml",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     src: "audioeffectservice_qti.xml",
+     filename_from_src: true,
+     sub_dir: "vintf/manifest",
+diff --git a/hal/effects/qcom-effects/offloadbundle/Android.bp b/hal/effects/qcom-effects/offloadbundle/Android.bp
+index bb272e99a..e516e437c 100644
+--- a/hal/effects/qcom-effects/offloadbundle/Android.bp
++++ b/hal/effects/qcom-effects/offloadbundle/Android.bp
+@@ -1,5 +1,9 @@
+ cc_library_shared {
+     name: "libqcompostprocbundle",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: ["aidlaudioeffectserviceqti_defaults"],
+     owner: "qti",
+     relative_install_path: "soundfx",
+diff --git a/hal/effects/qcom-effects/offloadvisualizer/Android.bp b/hal/effects/qcom-effects/offloadvisualizer/Android.bp
+index e118d5487..1bc810ca9 100644
+--- a/hal/effects/qcom-effects/offloadvisualizer/Android.bp
++++ b/hal/effects/qcom-effects/offloadvisualizer/Android.bp
+@@ -1,5 +1,9 @@
+ cc_library_shared {
+     name: "libqcomvisualizer",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: ["aidlaudioeffectserviceqti_defaults"],
+     owner: "qti",
+     relative_install_path: "soundfx",
+diff --git a/hal/effects/qcom-effects/voiceprocessing/Android.bp b/hal/effects/qcom-effects/voiceprocessing/Android.bp
+index 1249be0aa..92ae4538b 100644
+--- a/hal/effects/qcom-effects/voiceprocessing/Android.bp
++++ b/hal/effects/qcom-effects/voiceprocessing/Android.bp
+@@ -1,5 +1,9 @@
+ cc_library_shared {
+     name: "libqcomvoiceprocessing",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: ["aidlaudioeffectserviceqti_defaults"],
+     owner: "qti",
+     relative_install_path: "soundfx",
+diff --git a/hal/effects/qcom-effects/volumelistener/Android.bp b/hal/effects/qcom-effects/volumelistener/Android.bp
+index 6c8a61cc4..89e425aea 100644
+--- a/hal/effects/qcom-effects/volumelistener/Android.bp
++++ b/hal/effects/qcom-effects/volumelistener/Android.bp
+@@ -1,5 +1,9 @@
+ cc_library_shared {
+     name: "libvolumelistener",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     defaults: ["aidlaudioeffectserviceqti_defaults"],
+     owner: "qti",
+     relative_install_path: "soundfx",
+diff --git a/hal/service/Android.bp b/hal/service/Android.bp
+index 32a984599..327c20877 100644
+--- a/hal/service/Android.bp
++++ b/hal/service/Android.bp
+@@ -1,5 +1,9 @@
+ cc_binary {
+     name: "audiohalservice.qti",
++    enabled: select(soong_config_variable("lafa", "use_stock_hal"), {
++        true: false,
++        default: true,
++    }),
+     vendor: true,
+     relative_install_path: "hw",
+     init_rc: ["audiohalservice_qti.rc"],

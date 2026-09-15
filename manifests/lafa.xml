@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <!-- Evolution X cnb dependency baseline; apply patches/README.md after syncing. -->
+  <remote name="lafa-bringup" fetch="https://github.com/" />
+  <project path="device/realme/lafa" name="0x8008/android_device_realme_lafa" remote="lafa-bringup" revision="evox-cnb" />
+  <project path="device/realme/lafa-kernel" name="0x8008/android_device_realme_lafa-kernel" remote="lafa-bringup" revision="b588a5431f458339b56ac43755bf069f097f865c" />
+  <project path="device/oneplus/sm8850-common" name="OnePlus-SM8850-Development/android_device_oneplus_sm8850-common" remote="lafa-bringup" revision="d3346d749025e3dd15322d9b7799d737d9e6aa59" />
+  <project path="hardware/oplus" name="OnePlus-SM8850-Development/android_hardware_oplus" remote="lafa-bringup" revision="c50a8a104c7d15b1070731f79fea6927fc0ee428" />
+  <project path="vendor/oneplus/sm8850-common" name="OnePlus-SM8850-Development/proprietary_vendor_oneplus_sm8850-common" remote="lafa-bringup" revision="654d01a92760ac61aec745172d90809e27d2288b" />
+  <extend-project path="hardware/qcom-caf/sm8850/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" revision="2eecda7324c82465e505ec79c05eea6540b82601" />
+  <extend-project path="hardware/qcom-caf/sm8850/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" revision="0c4287a3da5ebc78441f6b61234cdeed9f73ff08" />
+  <extend-project path="hardware/qcom-caf/sm8850/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" revision="f75d1c5fa09e4ed507670fda90a5d6ac082f4dfd" />
+  <extend-project path="hardware/qcom-caf/sm8850/display/hal" name="LineageOS/android_hardware_qcom_display" revision="511d5ca4731479f58c398150ff7f4a59615759f8" />
+  <extend-project path="vendor/extras" name="vendor_extras" revision="a219955839e7b022874a2bfff21573168d169e7d" />
+  <extend-project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" revision="06594f29f47de6df46167983f9567be58212974a" />
+  <extend-project path="device/qcom/sepolicy_vndr/sm8850" name="LineageOS/android_device_qcom_sepolicy_vndr" revision="bacc60b6bd567a078e431eac16b6fefa83413245" />
+</manifest>

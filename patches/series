@@ -1,0 +1,6 @@
+hardware/oplus c50a8a104c7d15b1070731f79fea6927fc0ee428 0001-oplus-use-platform-powercap-policy.patch
+hardware/qcom-caf/sm8850/audio/primary-hal 2eecda7324c82465e505ec79c05eea6540b82601 0002-audio-primary-select-stock-hals.patch
+hardware/qcom-caf/sm8850/audio/agm 0c4287a3da5ebc78441f6b61234cdeed9f73ff08 0003-agm-select-stock-service.patch
+hardware/qcom-caf/sm8850/audio/pal f75d1c5fa09e4ed507670fda90a5d6ac082f4dfd 0004-pal-select-stock-service.patch
+hardware/qcom-caf/sm8850/display/hal 511d5ca4731479f58c398150ff7f4a59615759f8 0005-display-select-stock-hals.patch
+vendor/extras a219955839e7b022874a2bfff21573168d169e7d 0006-extras-drop-incompatible-flex-clock.patch
