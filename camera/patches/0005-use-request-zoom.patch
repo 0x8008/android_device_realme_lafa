@@ -1,0 +1,13 @@
+--- a/extract-files.py
++++ b/extract-files.py
+@@ -40,7 +40,9 @@
+     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
+         # Disable face detection AE behaviour
+         .regex_replace(r'(enableSWfdForThirdCamUnit += )TRUE', r'\1FALSE')
+-        .regex_replace(r'(fdSupport += )TRUE;', r'\1FALSE;'),
++        .regex_replace(r'(fdSupport += )TRUE;', r'\1FALSE;')
++        # Use capture-request zoom when the stock AIDL UI channel is unavailable.
++        .regex_replace(r'(UseAIDLInput += )TRUE', r'\1FALSE'),
+     'odm/etc/init/init.camera_process.rc': blob_fixup()
+         .regex_replace('    delete_recursion', '    #delete_recursion'),
+     (

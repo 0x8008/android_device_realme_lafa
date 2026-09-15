@@ -20,21 +20,21 @@ extraction and build commands. The [shared source patches](patches/README.md)
 are required by this branch's stock HAL selection. The stock kernel is the
 validated configuration; the inherited source-kernel option is untested.
 
-## Bring-up status
+## Install and release status
 
-The September 14, 2026 Evolution X build completed and booted on the RMX5200.
-Subsequent `runtimefix1` and `wallpaperfix1` builds passed build, SELinux,
-VINTF, OTA integrity and packaged-content checks. Those updates include:
+See [FLASHING.md](FLASHING.md) for installation and updates, and
+[CHANGELOG.md](CHANGELOG.md) for the September 15 release.
 
-- Recovered portrait status-bar alignment and a separate landscape override.
-- Measured super geometry and the observed panel's display configuration.
-- Correct default device name and the missing Wi-Fi Display audio dependency.
-- Removal of the incompatible Flex clock from the Android 17 wallpaper picker.
+The ROM boots on the tested RMX5200. The integrated realme Camera now saves
+correctly colored photos, switches rear lenses, and saves playable standard
+video. Aperture remains available. The shareable build retains that tested
+camera implementation.
 
-Phone confirmation of the latest updates, adaptive-brightness behavior and final
-status-bar alignment is pending. Stock realme Camera is not integrated. Other
-regional variants and a complete hardware feature matrix remain unverified.
-An existing saved device name must be changed manually after an update.
+Known camera issues: switching can lag, Dolby Vision recording fails, and
+tapping the thumbnail does not open Google Photos. Use Google Photos directly;
+for video use Standard format, disable HEVC and adaptive frame rate, and leave
+Dolby Vision off. Advanced camera modes and other regional variants are unverified.
+Adaptive-brightness and final status-bar changes still need device confirmation.
 
 This branch retains the bring-up `WITH_ADB_INSECURE := true` configuration and
 the common tree's development AVB keys/flags. It is an unofficial development

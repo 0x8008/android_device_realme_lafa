@@ -1,0 +1,4 @@
+proprietary/
+*.log
+__pycache__/
+*.py[cod]

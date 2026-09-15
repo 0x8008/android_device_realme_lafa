@@ -1,0 +1,3 @@
+/data/system/camera_rus(/.*)? u:object_r:lafa_camera_scratch_file:s0
+/data/vendor/camera_process(/.*)? u:object_r:lafa_camera_vendor_scratch_file:s0
+/data/vendor/cam_alog(/.*)? u:object_r:lafa_camera_vendor_scratch_file:s0

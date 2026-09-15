@@ -1,0 +1,16 @@
+--- a/Android.bp
++++ b/Android.bp
+@@ -17278,9 +17278,10 @@
+     },
+     target: {
+         android_arm64: {
+-            srcs: [
+-                "proprietary/odm/lib64/libsensorbridge.so",
+-            ],
++            srcs: select(soong_config_variable("LAFA_CAMERA", "enabled"), {
++                true: ["//vendor/realme/lafa-camera:lafa-camera-sensorbridge-blob"],
++                default: ["proprietary/odm/lib64/libsensorbridge.so"],
++            }),
+             shared_libs: [
+                 "libbase",
+                 "libbinder_ndk",

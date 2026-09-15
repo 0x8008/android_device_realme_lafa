@@ -1,0 +1,485 @@
+soong_namespace {
+    imports: ["hardware/oplus"],
+}
+
+java_library {
+    name: "lafa-camera-compat",
+    system_ext_specific: true,
+    installable: true,
+    srcs: ["compat/src/**/*.java", "compat/src/**/*.aidl"],
+    libs: ["oplus-fwk"],
+    aidl: { local_include_dirs: ["compat/src"] },
+}
+
+android_app_import {
+    name: "OplusCamera",
+    apk: "proprietary/OplusCamera.apk",
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt: { enabled: false },
+}
+
+dex_import {
+    name: "com.oplus.camera.unit.sdk",
+    jars: ["proprietary/framework/com.oplus.camera.unit.sdk.jar"],
+    system_ext_specific: true,
+}
+
+dex_import {
+    name: "com.oplus.camera.unit.sdk.adapter",
+    jars: ["proprietary/framework/com.oplus.camera.unit.sdk.adapter.jar"],
+    system_ext_specific: true,
+}
+
+// ro.hardware.camera=oemlayer.v2 selects this wrapper before the Qualcomm HAL.
+// It populates the OEM camera characteristics required by the stock camera SDK.
+cc_prebuilt_library_shared {
+    name: "lafa-camera-oemlayer",
+    stem: "camera.oemlayer.v2",
+    device_specific: true,
+    relative_install_path: "hw",
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/camera.oemlayer.v2.so"],
+    strip: { none: true },
+    check_elf_files: false,
+}
+
+// Both APS and OplusStringJNI load this from the ODM/SP-HAL namespace.
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libOplusSecurity",
+    stem: "libOplusSecurity",
+    device_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libOplusSecurity.so"],
+    strip: { none: true },
+    check_elf_files: false,
+}
+
+// Selected by the existing shared-platform module when this port is enabled.
+// Keep a single libsensorbridge provider for the HAL and its dependent libraries.
+filegroup {
+    name: "lafa-camera-sensorbridge-blob",
+    srcs: ["proprietary/lib64/libsensorbridge.so"],
+    visibility: ["//vendor/oneplus/sm8850-common:__pkg__"],
+}
+
+// BEGIN LAFA CAMERA NATIVE
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAPSClient-alog-jni",
+    stem: "libAPSClient-alog-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAPSClient-alog-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAPSClient-cmd-jni",
+    stem: "libAPSClient-cmd-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAPSClient-cmd-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAPSClient-jni",
+    stem: "libAPSClient-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAPSClient-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAncFilter_jni",
+    stem: "libAncFilter_jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAncFilter_jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAncHumBokeh-jni",
+    stem: "libAncHumBokeh-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAncHumBokeh-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAncHumanDoubleExposure-jni",
+    stem: "libAncHumanDoubleExposure-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAncHumanDoubleExposure-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAncHumanRetain-jni_v2",
+    stem: "libAncHumanRetain-jni_v2",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAncHumanRetain-jni_v2.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAncHumanSegFigureFusion-jni",
+    stem: "libAncHumanSegFigureFusion-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAncHumanSegFigureFusion-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAncHumanVideo-jni",
+    stem: "libAncHumanVideo-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAncHumanVideo-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libApsFaceBeautyPreviewProductJni",
+    stem: "libApsFaceBeautyPreviewProductJni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libApsFaceBeautyPreviewProductJni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libApsSuperEISPreviewJni",
+    stem: "libApsSuperEISPreviewJni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libApsSuperEISPreviewJni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAvatarEngineRender",
+    stem: "libAvatarEngineRender",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAvatarEngineRender.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAvatarEngineRenderNative",
+    stem: "libAvatarEngineRenderNative",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAvatarEngineRenderNative.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libCombineLut",
+    stem: "libCombineLut",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libCombineLut.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libCombineLutJni",
+    stem: "libCombineLutJni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libCombineLutJni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libHdrTransform-platform-jni",
+    stem: "libHdrTransform-platform-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libHdrTransform-platform-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libMsEffectSdk",
+    stem: "libMsEffectSdk",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libMsEffectSdk.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libOplusStringJNI",
+    stem: "libOplusStringJNI",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libOplusStringJNI.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libarcsoft_panorama_burstcapture",
+    stem: "libarcsoft_panorama_burstcapture",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libarcsoft_panorama_burstcapture.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libarcsoft_wideselfie",
+    stem: "libarcsoft_wideselfie",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libarcsoft_wideselfie.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libjni_burstpmk",
+    stem: "libjni_burstpmk",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libjni_burstpmk.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libjni_wideselfie",
+    stem: "libjni_wideselfie",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libjni_wideselfie.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-liblivephoto.frc.jni",
+    stem: "liblivephoto.frc.jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/liblivephoto.frc.jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libsingle_camera_bokeh2_native",
+    stem: "libsingle_camera_bokeh2_native",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libsingle_camera_bokeh2_native.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libsingle_camera_bokeh_native",
+    stem: "libsingle_camera_bokeh_native",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libsingle_camera_bokeh_native.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libst_mobile",
+    stem: "libst_mobile",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libst_mobile.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libst_sticker_jni",
+    stem: "libst_sticker_jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libst_sticker_jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libAPSClient-cmd-jni-extension.oplus",
+    stem: "libAPSClient-cmd-jni-extension.oplus",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libAPSClient-cmd-jni-extension.oplus.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libHeifEncoderWrapper",
+    stem: "libHeifEncoderWrapper",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libHeifEncoderWrapper.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libHeifWinBufExchg-jni",
+    stem: "libHeifWinBufExchg-jni",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libHeifWinBufExchg-jni.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libNativeWinBuffExchange",
+    stem: "libNativeWinBuffExchange",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libNativeWinBuffExchange.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libOplusStringJNI-extension.oplus",
+    stem: "libOplusStringJNI-extension.oplus",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libOplusStringJNI-extension.oplus.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libapssuspend-jni.oplus",
+    stem: "libapssuspend-jni.oplus",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libapssuspend-jni.oplus.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "lafa-camera-liboplusheifwriter",
+    stem: "liboplusheifwriter",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/liboplusheifwriter.so"],
+    strip: { none: true },
+    // The accompanying native inventory checks the stock runtime closure.
+    // Namespaced prebuilt modules do not map one-to-one to ELF SONAMEs.
+    check_elf_files: false,
+}
+cc_prebuilt_library_shared {
+    name: "lafa-camera-libiccprofile",
+    stem: "libiccprofile",
+    vendor: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/lib64/libiccprofile.so"],
+    strip: { none: true },
+    // Verified against the matching stock input by verify-runtime.py.
+    check_elf_files: false,
+}

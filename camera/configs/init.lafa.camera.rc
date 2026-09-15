@@ -1,0 +1,10 @@
+on post-fs-data
+    # Stock APS expects this common scratch directory; SELinux restricts its users.
+    mkdir /data/system/camera_rus 0777 cameraserver cameraserver
+    restorecon_recursive /data/system/camera_rus
+    # Relabel directories left by earlier builds during a non-wiping OTA update.
+    mkdir /data/vendor/camera_process 0777 camera camera
+    mkdir /data/vendor/camera_process/livephoto 0777 camera camera
+    mkdir /data/vendor/cam_alog 0777 camera camera
+    restorecon_recursive /data/vendor/camera_process
+    restorecon_recursive /data/vendor/cam_alog

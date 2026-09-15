@@ -1,0 +1,37 @@
+# Stock camera gets the normal platform-app policy plus camera HAL client access.
+type lafa_stock_camera, domain;
+typeattribute lafa_stock_camera coredomain;
+app_domain(lafa_stock_camera)
+net_domain(lafa_stock_camera)
+bluetooth_domain(lafa_stock_camera)
+platform_app_domain(lafa_stock_camera)
+# Recovery does not run apps and disables full-Treble macro handling.
+not_recovery(`
+    hal_client_domain(lafa_stock_camera, hal_camera)
+    # APS uses the unsigned Hexagon service, as normal Qualcomm priv-apps do.
+    hal_client_domain(lafa_stock_camera, vendor_hal_unsignedhexlp)
+    hal_client_domain(lafa_stock_camera, vendor_hal_dspmanager)
+    # APS requests native AIDL wake locks while deferred processing is active.
+    binder_call(lafa_stock_camera, system_suspend_server)
+    allow lafa_stock_camera hal_system_suspend_service:service_manager find;
+')
+
+# CaptureDeferUtils reads the storage model during every camera startup.
+# Keep this read limited to its exact proc node instead of generic proc files.
+type lafa_camera_ufs_proc, fs_type, proc_type;
+allow lafa_stock_camera lafa_camera_ufs_proc:file r_file_perms;
+
+# APS capture-job scratch storage, labeled independently of other system data.
+# These are shared camera workspaces used by the app and native camera services.
+# Trust only their object labels across MLS categories, not the entire app.
+type lafa_camera_scratch_file, file_type, data_file_type, core_data_file_type, mlstrustedobject;
+allow lafa_stock_camera lafa_camera_scratch_file:dir create_dir_perms;
+allow lafa_stock_camera lafa_camera_scratch_file:file create_file_perms;
+allow cameraserver lafa_camera_scratch_file:dir create_dir_perms;
+allow cameraserver lafa_camera_scratch_file:file create_file_perms;
+
+type lafa_camera_vendor_scratch_file, file_type, data_file_type, mlstrustedobject;
+allow lafa_stock_camera lafa_camera_vendor_scratch_file:dir create_dir_perms;
+allow lafa_stock_camera lafa_camera_vendor_scratch_file:file create_file_perms;
+allow hal_camera_server lafa_camera_vendor_scratch_file:dir create_dir_perms;
+allow hal_camera_server lafa_camera_vendor_scratch_file:file create_file_perms;

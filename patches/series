@@ -4,3 +4,7 @@ hardware/qcom-caf/sm8850/audio/agm 0c4287a3da5ebc78441f6b61234cdeed9f73ff08 0003
 hardware/qcom-caf/sm8850/audio/pal f75d1c5fa09e4ed507670fda90a5d6ac082f4dfd 0004-pal-select-stock-service.patch
 hardware/qcom-caf/sm8850/display/hal 511d5ca4731479f58c398150ff7f4a59615759f8 0005-display-select-stock-hals.patch
 vendor/extras a219955839e7b022874a2bfff21573168d169e7d 0006-extras-drop-incompatible-flex-clock.patch
+hardware/oplus c50a8a104c7d15b1070731f79fea6927fc0ee428 ../camera/patches/0001-oplus-camera-ux-hint.patch
+vendor/oneplus/sm8850-common 654d01a92760ac61aec745172d90809e27d2288b ../camera/patches/0002-select-lafa-sensorbridge.patch
+bionic 7ba6adb9329eb5dfafd9d90e5e800e1b239493d2 ../camera/patches/0003-preserve-native-crash-reports.patch
+frameworks/native d91d83e5adba7654d9c587e8c375bec70da4e3f0 ../camera/patches/0004-handle-lafa-p010-planes.patch

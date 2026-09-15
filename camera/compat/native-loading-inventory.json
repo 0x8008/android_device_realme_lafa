@@ -1,0 +1,5405 @@
+{
+  "roots": [
+    "android.hardware.graphics.bufferqueue@2.0.so",
+    "android.system.suspend-V1-ndk.so",
+    "lib2DSlender.so",
+    "libAlgoProcess.so",
+    "libAncFilter.so",
+    "libEISLive.so",
+    "libFaceBeautyJni.so",
+    "libOPAlgoCamHDRTransformCamera.so",
+    "libOpenCL.so",
+    "libOplusSecurity.so",
+    "libQnnHtpPrepare.so",
+    "libQnnHtpV81CalculatorStub.so",
+    "libQnnHtpV81Stub.so",
+    "libalog.so",
+    "libarcsoft_scbokeh_video.so",
+    "libbase.so",
+    "libc++.so",
+    "libcutils.so",
+    "libfusioninterpolation.arcsoft.so",
+    "libmpbase.so",
+    "libmsnativefilter.so",
+    "libstagefright_foundation.so",
+    "libui.so",
+    "libutils.so",
+    "libz.so"
+  ],
+  "libraries": [
+    {
+      "path": "/vendor/lib64/android.hardware.camera.common-V1-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.camera.device-V2-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.camera.metadata-V2-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.common-V2-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.common.fmq-V1-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.allocator-V2-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.allocator@2.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.allocator@3.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.allocator@4.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.bufferqueue@2.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.common-V7-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.common@1.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.common@1.1.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.common@1.2.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.mapper@2.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.mapper@2.1.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.mapper@3.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.hardware.graphics.mapper@4.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/android.system.suspend-V1-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/lib2DSlender.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libAF.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libAlgoInterface.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libAlgoProcess.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libAncFilter.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libAncSegBaseSdk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libAncSegmentSdk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libBasicTonePhoto.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libBokehPre.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libCB.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libCS.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libCaptureBokeh.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libDocRectification.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libEGL_adreno.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libEIS.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libEISLive.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libFDClite.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libFaceBeautyJni.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libFaceBeautyPre.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libFaceDistortionCorrection.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libGLESv2_adreno.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libHDRDetection.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libImageWarpMask.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libImplicitWatermark.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libODNN.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamAIBeautyBodyDetection.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamAiUnifySkin.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamFaceBeautyCap.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamFaceRestore.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamGroupClassifier.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamHDRTransformCamera.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamHDRTransformQuick.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamHybridRaw.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamPortraitHDRTransform.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamSegment.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPAlgoCamSinglePortrait.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOPLUSMotionDetection.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libOpenCL.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libOpenCL_adreno.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOplusPDCore.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOplusSecurity.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libOpo_awb.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libQnnCpu.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libQnnGpu.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libQnnHtp.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libQnnHtpPrepare.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libQnnHtpV81CalculatorStub.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libQnnHtpV81Stub.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libQnnSystem.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libRedeyeReduce.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libSuperRaw.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libUpScale.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libWaterMark.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/lib_rectify.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libaconfig_storage_read_api_cc.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libadreno_app_profiles.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libadreno_compiler_cl.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libadreno_utils.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libadsprpc.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libaecCustom.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libai_perception_scene_detect.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libaiboost.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libaiboost_qnn_external_delegate_te.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libaiboost_te.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libaisd.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libaisd_fullfov.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libaiseg.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libalCFR.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libalog.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libapsdngsdk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libapsexif.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libapsjpeg.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libapspng.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libapsultrahdr.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libapsyuv.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarc.ion.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_ai_moon.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_hdr_couple_api.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_high_dynamic_range_couple.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_long_exposure_capture.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_long_exposure_preview.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_preview_antibanding.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_qnnhtp.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_scbokeh_video.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_smart_denoise.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_tfm.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_turbo_hdr_grf.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_turbo_hdr_raw.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_turbo_hdr_raw_front.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libarcsoft_turbo_raw.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libbase.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libc++.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libc++_shared.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libcamxexternalformatutils.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libcdsprpc.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libcutils.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libdisplaydebug.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libdlrmsc.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libdmabufheap.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libdngsdkwrapper.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libeffect_custom.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libexif-jpeg-aps.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libextendfile.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libfusioninterpolation.arcsoft.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libgralloc.qti.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libgralloctypes.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libgrallocutils.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libgsl.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libhardware.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libhidlbase.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libhybridraw_datas.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libhybridraw_tuningparams.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libimgClarityEvaluate.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libion.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libjsoncpp.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libkcl.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libkernelmanager.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libllvm-glnext.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libllvm-qcom.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libllvm-qgl.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/liblzma.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libmapperutils.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libmdsprpc.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libmemutils.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libminksocket_vendor.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libmpbase.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libmsnativefilter.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libnspextensiongenericqnnservice.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libocce3a.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/liboplus-uah-client.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libopluspdparam.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libosenseaidlhalclient.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libpngwrapper.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libpower.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libq3dtools_adreno.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libqdMetaData.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libqrtr.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libqspm-mem-utils-vendor.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libremosaic_wrapper.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libremosaiclib.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libsdsprpc.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libsharebuffer.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libsharebuffer_impl.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libstagefright_foundation.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libtrace.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libui.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libunwindstack.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libutils.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libutilscallstack.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libvega_common.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libvmmem.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libwatermark_photo.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libwrapper_te.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libyuvwrapper.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/libz.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/odm/lib64/libzlib.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/server_configurable_flags.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.camera.offlinecamera-V2-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.display.mapper@3.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.display.snapalloc-impl.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.dsp-V1-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.dsp@1.0.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.hardware.hexlp-V2-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    },
+    {
+      "path": "/vendor/lib64/vendor.qti.qspmhal-V1-ndk.so",
+      "label": "u:object_r:same_process_hal_file:s0"
+    }
+  ],
+  "edges": [
+    {
+      "consumer": "android.hardware.graphics.bufferqueue@2.0.so",
+      "provider": "android.hardware.graphics.bufferqueue@2.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.bufferqueue@2.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.bufferqueue@2.0.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.bufferqueue@2.0.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.bufferqueue@2.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.bufferqueue@2.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.bufferqueue@2.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.bufferqueue@2.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.system.suspend-V1-ndk.so",
+      "provider": "android.system.suspend-V1-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.system.suspend-V1-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "lib2DSlender.so",
+      "provider": "lib2DSlender.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "lib2DSlender.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "android.hardware.camera.common-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "android.hardware.graphics.allocator-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "android.hardware.graphics.common-V7-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libAlgoInterface.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libAlgoProcess.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libImplicitWatermark.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libOPAlgoCamHybridRaw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libOplusSecurity.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libalog.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libapsexif.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libapsjpeg.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libapsultrahdr.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libarcsoft_turbo_hdr_grf.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libdngsdkwrapper.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libexif-jpeg-aps.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libextendfile.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libgralloc.qti.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libgralloctypes.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libimgClarityEvaluate.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libion.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "liboplus-uah-client.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libosenseaidlhalclient.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libpngwrapper.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libpower.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libqdMetaData.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libsharebuffer.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libutilscallstack.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "libyuvwrapper.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "vendor.oplus.hardware.osense.client-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "vendor.qti.hardware.camera.offlinecamera-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoProcess.so",
+      "provider": "vendor.qti.hardware.display.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAncFilter.so",
+      "provider": "libAncFilter.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libEISLive.so",
+      "provider": "libEISLive.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libEISLive.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEISLive.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEISLive.so",
+      "provider": "libui.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEISLive.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libFaceBeautyJni.so",
+      "provider": "lib2DSlender.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFaceBeautyJni.so",
+      "provider": "libFaceBeautyJni.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFaceBeautyJni.so",
+      "provider": "libvega_common.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFaceBeautyJni.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformCamera.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformCamera.so",
+      "provider": "libOPAlgoCamHDRTransformCamera.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformCamera.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformCamera.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformCamera.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOpenCL.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOpenCL.so",
+      "provider": "libOpenCL_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOpenCL.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOpenCL.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOplusSecurity.so",
+      "provider": "libOplusSecurity.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libalog.so",
+      "provider": "libalog.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libalog.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_scbokeh_video.so",
+      "provider": "libarcsoft_scbokeh_video.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_scbokeh_video.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libbase.so",
+      "provider": "libbase.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libbase.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libc++.so",
+      "provider": "libc++.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libcutils.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcutils.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcutils.so",
+      "provider": "libcutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libfusioninterpolation.arcsoft.so",
+      "provider": "libOpenCL.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libfusioninterpolation.arcsoft.so",
+      "provider": "libarc.ion.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libfusioninterpolation.arcsoft.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libfusioninterpolation.arcsoft.so",
+      "provider": "libfusioninterpolation.arcsoft.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libfusioninterpolation.arcsoft.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libfusioninterpolation.arcsoft.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmpbase.so",
+      "provider": "libmpbase.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmsnativefilter.so",
+      "provider": "libmsnativefilter.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmsnativefilter.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libstagefright_foundation.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libstagefright_foundation.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libstagefright_foundation.so",
+      "provider": "libstagefright_foundation.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libstagefright_foundation.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.allocator-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.allocator@2.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.allocator@3.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.allocator@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.common-V7-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.mapper@2.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.mapper@2.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.mapper@3.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "libaconfig_storage_read_api_cc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "libgralloctypes.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "libui.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libui.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libutils.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libutils.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libutils.so",
+      "provider": "libutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libz.so",
+      "provider": "libz.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.1.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.1.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.1.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.1.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.1.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.1.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.2.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.2.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.2.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.2.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.2.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.2.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common@1.2.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libhidlbase.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libhidlbase.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libhidlbase.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libhidlbase.so",
+      "provider": "libhidlbase.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libhidlbase.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libODNN.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libODNN.so",
+      "provider": "libQnnCpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libODNN.so",
+      "provider": "libQnnGpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libODNN.so",
+      "provider": "libQnnHtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libODNN.so",
+      "provider": "libQnnSystem.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libODNN.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libODNN.so",
+      "provider": "libzlib.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.camera.common-V1-ndk.so",
+      "provider": "android.hardware.camera.common-V1-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.camera.common-V1-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator-V2-ndk.so",
+      "provider": "android.hardware.common-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator-V2-ndk.so",
+      "provider": "android.hardware.graphics.allocator-V2-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator-V2-ndk.so",
+      "provider": "android.hardware.graphics.common-V7-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator-V2-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common-V7-ndk.so",
+      "provider": "android.hardware.common-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.common-V7-ndk.so",
+      "provider": "android.hardware.graphics.common-V7-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.common-V7-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@4.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@4.0.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@4.0.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@4.0.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@4.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@4.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@4.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@4.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "android.hardware.camera.common-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "lib2DSlender.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libAlgoInterface.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libAlgoProcess.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libAncFilter.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libAncSegBaseSdk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libAncSegmentSdk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libBasicTonePhoto.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libBokehPre.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libCaptureBokeh.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libDocRectification.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libEIS.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libFDClite.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libFaceBeautyPre.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libFaceDistortionCorrection.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libHDRDetection.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libImageWarpMask.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libImplicitWatermark.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamAIBeautyBodyDetection.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamAiBeautyFaceRetouchCn.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamAiUnifySkin.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamFaceBeautyCap.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamFaceRestore.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamGroupClassifier.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamHDRTransformCamera.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamHDRTransformQuick.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamHybridRaw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamPortraitHDRTransform.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamSegment.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPAlgoCamSinglePortrait.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libOPLUSMotionDetection.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libRedeyeReduce.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libSuperRaw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libUpScale.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libWaterMark.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "lib_rectify.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libai_perception_scene_detect.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libaisd.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libaisd_fullfov.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libaiseg.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libalCFR.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libalog.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libapsjpeg.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_ai_moon.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_hdr_couple_api.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_long_exposure_capture.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_long_exposure_preview.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_preview_antibanding.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_tfm.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libarcsoft_turbo_raw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libeffect_custom.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libmsnativefilter.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libocce3a.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libqdMetaData.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libremosaic_wrapper.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libvega_common.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libwatermark_photo.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "libwrapper_te.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAlgoInterface.so",
+      "provider": "vendor.qti.hardware.camera.offlinecamera-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libImplicitWatermark.so",
+      "provider": "libImplicitWatermark.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libImplicitWatermark.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libOPAlgoCamHybridRaw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libOPAlgoCamSegment.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libhybridraw_datas.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libhybridraw_tuningparams.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHybridRaw.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsexif.so",
+      "provider": "libapsexif.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libapsexif.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsjpeg.so",
+      "provider": "libapsjpeg.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libapsjpeg.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsultrahdr.so",
+      "provider": "libapsjpeg.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsultrahdr.so",
+      "provider": "libapsultrahdr.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libapsultrahdr.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsultrahdr.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsultrahdr.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_grf.so",
+      "provider": "libarc.ion.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_grf.so",
+      "provider": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_grf.so",
+      "provider": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_grf.so",
+      "provider": "libarcsoft_turbo_hdr_grf.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_grf.so",
+      "provider": "libarcsoft_turbo_hdr_raw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_grf.so",
+      "provider": "libarcsoft_turbo_hdr_raw_front.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_grf.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdngsdkwrapper.so",
+      "provider": "libAlgoProcess.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdngsdkwrapper.so",
+      "provider": "libalog.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdngsdkwrapper.so",
+      "provider": "libapsdngsdk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdngsdkwrapper.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdngsdkwrapper.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdngsdkwrapper.so",
+      "provider": "libdngsdkwrapper.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libdngsdkwrapper.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libexif-jpeg-aps.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libexif-jpeg-aps.so",
+      "provider": "libexif-jpeg-aps.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libextendfile.so",
+      "provider": "libextendfile.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libgralloc.qti.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloc.qti.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloc.qti.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloc.qti.so",
+      "provider": "libgralloc.qti.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libgralloc.qti.so",
+      "provider": "libgralloctypes.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloc.qti.so",
+      "provider": "libhardware.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloc.qti.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloc.qti.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloctypes.so",
+      "provider": "android.hardware.graphics.common-V7-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloctypes.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloctypes.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgralloctypes.so",
+      "provider": "libgralloctypes.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libgralloctypes.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libimgClarityEvaluate.so",
+      "provider": "libOPAlgoCamHybridRaw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libimgClarityEvaluate.so",
+      "provider": "libimgClarityEvaluate.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libion.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libion.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "liboplus-uah-client.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "liboplus-uah-client.so",
+      "provider": "liboplus-uah-client.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libosenseaidlhalclient.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libosenseaidlhalclient.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libosenseaidlhalclient.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libosenseaidlhalclient.so",
+      "provider": "liboplus-uah-client.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libosenseaidlhalclient.so",
+      "provider": "libosenseaidlhalclient.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libosenseaidlhalclient.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libosenseaidlhalclient.so",
+      "provider": "vendor.oplus.hardware.osense.client-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpngwrapper.so",
+      "provider": "libapspng.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpngwrapper.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpngwrapper.so",
+      "provider": "libpngwrapper.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libpower.so",
+      "provider": "android.system.suspend-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpower.so",
+      "provider": "libaconfig_storage_read_api_cc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpower.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpower.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpower.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpower.so",
+      "provider": "libpower.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libpower.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libpower.so",
+      "provider": "server_configurable_flags.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqdMetaData.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqdMetaData.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqdMetaData.so",
+      "provider": "libgralloc.qti.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqdMetaData.so",
+      "provider": "libgralloctypes.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqdMetaData.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqdMetaData.so",
+      "provider": "libqdMetaData.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libqdMetaData.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsharebuffer.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsharebuffer.so",
+      "provider": "libsharebuffer.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libsharebuffer.so",
+      "provider": "libsharebuffer_impl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libutilscallstack.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libutilscallstack.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libutilscallstack.so",
+      "provider": "libunwindstack.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libutilscallstack.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libutilscallstack.so",
+      "provider": "libutilscallstack.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libyuvwrapper.so",
+      "provider": "libapsyuv.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libyuvwrapper.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libyuvwrapper.so",
+      "provider": "libyuvwrapper.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.oplus.hardware.osense.client-V1-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.oplus.hardware.osense.client-V1-ndk.so",
+      "provider": "vendor.oplus.hardware.osense.client-V1-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.camera.offlinecamera-V2-ndk.so",
+      "provider": "android.hardware.camera.device-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.camera.offlinecamera-V2-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.camera.offlinecamera-V2-ndk.so",
+      "provider": "vendor.qti.hardware.camera.offlinecamera-V2-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "vendor.qti.hardware.display.mapper@4.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@4.0.so",
+      "provider": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libc++_shared.so",
+      "provider": "libc++_shared.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libvega_common.so",
+      "provider": "libQnnHtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libvega_common.so",
+      "provider": "libQnnSystem.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libvega_common.so",
+      "provider": "libvega_common.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libtrace.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libtrace.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libtrace.so",
+      "provider": "libtrace.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libtrace.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOpenCL_adreno.so",
+      "provider": "libCB.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOpenCL_adreno.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOpenCL_adreno.so",
+      "provider": "libOpenCL_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOpenCL_adreno.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOpenCL_adreno.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOpenCL_adreno.so",
+      "provider": "libgsl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOpenCL_adreno.so",
+      "provider": "libq3dtools_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarc.ion.so",
+      "provider": "libarc.ion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarc.ion.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarc.ion.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarc.ion.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarc.ion.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libadsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libhardware.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libmdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libsdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "libvmmem.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "vendor.qti.hardware.dsp-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcdsprpc.so",
+      "provider": "vendor.qti.hardware.dsp@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@2.0.so",
+      "provider": "android.hardware.graphics.allocator@2.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@2.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@2.0.so",
+      "provider": "android.hardware.graphics.mapper@2.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@2.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@2.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@2.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@2.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "android.hardware.graphics.allocator@3.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "android.hardware.graphics.mapper@3.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@3.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "android.hardware.graphics.allocator@4.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.allocator@4.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.0.so",
+      "provider": "android.hardware.graphics.mapper@2.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.1.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.1.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.1.so",
+      "provider": "android.hardware.graphics.mapper@2.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.1.so",
+      "provider": "android.hardware.graphics.mapper@2.1.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.1.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.1.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.1.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@2.1.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@3.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@3.0.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@3.0.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@3.0.so",
+      "provider": "android.hardware.graphics.mapper@3.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@3.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@3.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@3.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.graphics.mapper@3.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libaconfig_storage_read_api_cc.so",
+      "provider": "libaconfig_storage_read_api_cc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaconfig_storage_read_api_cc.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libQnnCpu.so",
+      "provider": "libQnnCpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libQnnGpu.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libQnnGpu.so",
+      "provider": "libQnnGpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libQnnHtp.so",
+      "provider": "libQnnHtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libQnnSystem.so",
+      "provider": "libQnnSystem.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libzlib.so",
+      "provider": "libzlib.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.common-V2-ndk.so",
+      "provider": "android.hardware.common-V2-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.common-V2-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAncSegBaseSdk.so",
+      "provider": "libAncSegBaseSdk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAncSegBaseSdk.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAncSegmentSdk.so",
+      "provider": "libAncSegmentSdk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAncSegmentSdk.so",
+      "provider": "libQnnCpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAncSegmentSdk.so",
+      "provider": "libQnnGpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAncSegmentSdk.so",
+      "provider": "libQnnHtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAncSegmentSdk.so",
+      "provider": "libQnnSystem.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAncSegmentSdk.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libBasicTonePhoto.so",
+      "provider": "libBasicTonePhoto.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libBasicTonePhoto.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libBokehPre.so",
+      "provider": "libBokehPre.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libBokehPre.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libBokehPre.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCaptureBokeh.so",
+      "provider": "libCaptureBokeh.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCaptureBokeh.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCaptureBokeh.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libDocRectification.so",
+      "provider": "libDocRectification.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libDocRectification.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libDocRectification.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEIS.so",
+      "provider": "libEIS.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libEIS.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libFDClite.so",
+      "provider": "libFDClite.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFDClite.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFDClite.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libFaceBeautyPre.so",
+      "provider": "libFaceBeautyPre.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFaceBeautyPre.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFaceBeautyPre.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFaceDistortionCorrection.so",
+      "provider": "libFaceDistortionCorrection.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFaceDistortionCorrection.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libFaceDistortionCorrection.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libHDRDetection.so",
+      "provider": "libHDRDetection.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libImageWarpMask.so",
+      "provider": "libImageWarpMask.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamAIBeautyBodyDetection.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamAIBeautyBodyDetection.so",
+      "provider": "libOPAlgoCamAIBeautyBodyDetection.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamAiBeautyFaceRetouchCn.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamAiBeautyFaceRetouchCn.so",
+      "provider": "libOPAlgoCamAiBeautyFaceRetouchCn.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamAiUnifySkin.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamAiUnifySkin.so",
+      "provider": "libOPAlgoCamAiUnifySkin.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamFaceBeautyCap.so",
+      "provider": "libOPAlgoCamFaceBeautyCap.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamFaceRestore.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamFaceRestore.so",
+      "provider": "libOPAlgoCamFaceRestore.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamFaceRestore.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamFaceRestore.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamFaceRestore.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamGroupClassifier.so",
+      "provider": "libOPAlgoCamGroupClassifier.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformQuick.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformQuick.so",
+      "provider": "libOPAlgoCamHDRTransformQuick.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformQuick.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformQuick.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamHDRTransformQuick.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamPortraitHDRTransform.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamPortraitHDRTransform.so",
+      "provider": "libOPAlgoCamPortraitHDRTransform.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamPortraitHDRTransform.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamPortraitHDRTransform.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamPortraitHDRTransform.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamSegment.so",
+      "provider": "libODNN.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamSegment.so",
+      "provider": "libOPAlgoCamSegment.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamSegment.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamSegment.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPAlgoCamSinglePortrait.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamSinglePortrait.so",
+      "provider": "libOPAlgoCamSinglePortrait.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPAlgoCamSinglePortrait.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOPLUSMotionDetection.so",
+      "provider": "libOPLUSMotionDetection.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOPLUSMotionDetection.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libRedeyeReduce.so",
+      "provider": "libRedeyeReduce.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libSuperRaw.so",
+      "provider": "libSuperRaw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libSuperRaw.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libSuperRaw.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libUpScale.so",
+      "provider": "libUpScale.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libWaterMark.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libWaterMark.so",
+      "provider": "libWaterMark.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libWaterMark.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "lib_rectify.so",
+      "provider": "lib_rectify.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "lib_rectify.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "lib_rectify.so",
+      "provider": "libcutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "lib_rectify.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libai_perception_scene_detect.so",
+      "provider": "libai_perception_scene_detect.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaisd.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaisd.so",
+      "provider": "libaisd.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaisd_fullfov.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaisd_fullfov.so",
+      "provider": "libaisd_fullfov.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiseg.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiseg.so",
+      "provider": "libaiseg.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiseg.so",
+      "provider": "libsharebuffer.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libaiseg.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libalCFR.so",
+      "provider": "libalCFR.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libalCFR.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_ai_moon.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_ai_moon.so",
+      "provider": "libarcsoft_ai_moon.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_ai_moon.so",
+      "provider": "libarcsoft_qnnhtp.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_ai_moon.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_ai_moon.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_ai_moon.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_hdr_couple_api.so",
+      "provider": "libarcsoft_hdr_couple_api.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_hdr_couple_api.so",
+      "provider": "libarcsoft_high_dynamic_range_couple.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_hdr_couple_api.so",
+      "provider": "libarcsoft_smart_denoise.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_hdr_couple_api.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_long_exposure_capture.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_long_exposure_capture.so",
+      "provider": "libarcsoft_long_exposure_capture.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_long_exposure_capture.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_long_exposure_capture.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_long_exposure_capture.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_long_exposure_preview.so",
+      "provider": "libarcsoft_long_exposure_preview.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_long_exposure_preview.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_preview_antibanding.so",
+      "provider": "libOpenCL.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_preview_antibanding.so",
+      "provider": "libarcsoft_preview_antibanding.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_tfm.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_tfm.so",
+      "provider": "libarcsoft_qnnhtp.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_tfm.so",
+      "provider": "libarcsoft_tfm.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_tfm.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_tfm.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_tfm.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "provider": "libOpenCL.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "provider": "libarcsoft_qnnhtp.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "provider": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "provider": "libOpenCL.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "provider": "libarc.ion.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "provider": "libarcsoft_qnnhtp.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "provider": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libarcsoft_qnnhtp.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libarcsoft_tfm.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libarcsoft_turbo_fusion_raw_portrait_super_night.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libarcsoft_turbo_fusion_raw_super_night.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libarcsoft_turbo_hdr_raw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libarcsoft_turbo_hdr_raw_front.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libarcsoft_turbo_raw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_raw.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libeffect_custom.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libeffect_custom.so",
+      "provider": "libeffect_custom.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libeffect_custom.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libocce3a.so",
+      "provider": "libAF.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libocce3a.so",
+      "provider": "libCS.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libocce3a.so",
+      "provider": "libOplusPDCore.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libocce3a.so",
+      "provider": "libOpo_awb.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libocce3a.so",
+      "provider": "libaecCustom.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libocce3a.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libocce3a.so",
+      "provider": "libocce3a.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libremosaic_wrapper.so",
+      "provider": "libremosaic_wrapper.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libremosaic_wrapper.so",
+      "provider": "libremosaiclib.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libwatermark_photo.so",
+      "provider": "libwatermark_photo.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libwrapper_te.so",
+      "provider": "libaiboost_te.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libwrapper_te.so",
+      "provider": "libwrapper_te.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libwrapper_te.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libhybridraw_datas.so",
+      "provider": "libhybridraw_datas.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libhybridraw_tuningparams.so",
+      "provider": "libhybridraw_tuningparams.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw.so",
+      "provider": "libarc.ion.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw.so",
+      "provider": "libarcsoft_qnnhtp.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw.so",
+      "provider": "libarcsoft_turbo_hdr_raw.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw_front.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw_front.so",
+      "provider": "libarc.ion.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw_front.so",
+      "provider": "libarcsoft_qnnhtp.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw_front.so",
+      "provider": "libarcsoft_turbo_hdr_raw_front.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw_front.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw_front.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw_front.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_turbo_hdr_raw_front.so",
+      "provider": "libtrace.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsdngsdk.so",
+      "provider": "libapsdngsdk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libapsdngsdk.so",
+      "provider": "libapsjpeg.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsdngsdk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsdngsdk.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libhardware.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libhardware.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libhardware.so",
+      "provider": "libhardware.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libapspng.so",
+      "provider": "libapspng.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libapspng.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapspng.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "server_configurable_flags.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "server_configurable_flags.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "server_configurable_flags.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "server_configurable_flags.so",
+      "provider": "server_configurable_flags.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libsharebuffer_impl.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsharebuffer_impl.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsharebuffer_impl.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsharebuffer_impl.so",
+      "provider": "libsharebuffer_impl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libsharebuffer_impl.so",
+      "provider": "libui.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsharebuffer_impl.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libunwindstack.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libunwindstack.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libunwindstack.so",
+      "provider": "liblzma.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libunwindstack.so",
+      "provider": "libunwindstack.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libunwindstack.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsyuv.so",
+      "provider": "libapsjpeg.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libapsyuv.so",
+      "provider": "libapsyuv.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libapsyuv.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.camera.device-V2-ndk.so",
+      "provider": "android.hardware.camera.common-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.camera.device-V2-ndk.so",
+      "provider": "android.hardware.camera.device-V2-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.camera.device-V2-ndk.so",
+      "provider": "android.hardware.camera.metadata-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.camera.device-V2-ndk.so",
+      "provider": "android.hardware.common-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.camera.device-V2-ndk.so",
+      "provider": "android.hardware.common.fmq-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.camera.device-V2-ndk.so",
+      "provider": "android.hardware.graphics.common-V7-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.camera.device-V2-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "provider": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "android.hardware.graphics.allocator-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "android.hardware.graphics.mapper@3.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libCB.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libEGL_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libGLESv2_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libadreno_utils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libgralloc.qti.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libgralloctypes.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libgsl.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libkernelmanager.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libllvm-qcom.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libmapperutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libq3dtools_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "vendor.qti.hardware.display.mapper@3.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "vendor.qti.hardware.display.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCB.so",
+      "provider": "vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgsl.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgsl.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgsl.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgsl.so",
+      "provider": "libgsl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libgsl.so",
+      "provider": "libnspextensiongenericqnnservice.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libgsl.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgsl.so",
+      "provider": "vendor.qti.hardware.hexlp-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libq3dtools_adreno.so",
+      "provider": "libEGL_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libq3dtools_adreno.so",
+      "provider": "libGLESv2_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libq3dtools_adreno.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libq3dtools_adreno.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libq3dtools_adreno.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libq3dtools_adreno.so",
+      "provider": "libgsl.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libq3dtools_adreno.so",
+      "provider": "libq3dtools_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libdmabufheap.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdmabufheap.so",
+      "provider": "libdmabufheap.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libadsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libhardware.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libmdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libsdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "libvmmem.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "vendor.qti.hardware.dsp-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadsprpc.so",
+      "provider": "vendor.qti.hardware.dsp@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libadsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libhardware.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libmdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libsdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "libvmmem.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "vendor.qti.hardware.dsp-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmdsprpc.so",
+      "provider": "vendor.qti.hardware.dsp@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libadsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libhardware.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libmdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libsdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "libvmmem.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "vendor.qti.hardware.dsp-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libsdsprpc.so",
+      "provider": "vendor.qti.hardware.dsp@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libvmmem.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libvmmem.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libvmmem.so",
+      "provider": "libvmmem.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.dsp-V1-ndk.so",
+      "provider": "android.hardware.common-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.dsp-V1-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.dsp-V1-ndk.so",
+      "provider": "vendor.qti.hardware.dsp-V1-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.dsp@1.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.dsp@1.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.dsp@1.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.dsp@1.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.dsp@1.0.so",
+      "provider": "vendor.qti.hardware.dsp@1.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_qnnhtp.so",
+      "provider": "libQnnGpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_qnnhtp.so",
+      "provider": "libQnnHtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_qnnhtp.so",
+      "provider": "libarcsoft_qnnhtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_qnnhtp.so",
+      "provider": "libcdsprpc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_high_dynamic_range_couple.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_high_dynamic_range_couple.so",
+      "provider": "libarcsoft_high_dynamic_range_couple.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_high_dynamic_range_couple.so",
+      "provider": "libion.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_high_dynamic_range_couple.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libarcsoft_smart_denoise.so",
+      "provider": "libarcsoft_smart_denoise.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libarcsoft_smart_denoise.so",
+      "provider": "libmpbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libAF.so",
+      "provider": "libAF.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libAF.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libCS.so",
+      "provider": "libCS.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libCS.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOplusPDCore.so",
+      "provider": "libOplusPDCore.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOplusPDCore.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOplusPDCore.so",
+      "provider": "libopluspdparam.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libOpo_awb.so",
+      "provider": "libOpo_awb.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libOpo_awb.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libaecCustom.so",
+      "provider": "libODNN.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaecCustom.so",
+      "provider": "libaecCustom.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaecCustom.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libremosaiclib.so",
+      "provider": "libOpenCL.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libremosaiclib.so",
+      "provider": "libQnnHtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libremosaiclib.so",
+      "provider": "libQnnSystem.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libremosaiclib.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libremosaiclib.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libremosaiclib.so",
+      "provider": "libdlrmsc.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libremosaiclib.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libremosaiclib.so",
+      "provider": "libremosaiclib.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_te.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_te.so",
+      "provider": "libaiboost.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_te.so",
+      "provider": "libaiboost_qnn_external_delegate_te.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_te.so",
+      "provider": "libaiboost_te.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_te.so",
+      "provider": "libcutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "liblzma.so",
+      "provider": "liblzma.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.camera.metadata-V2-ndk.so",
+      "provider": "android.hardware.camera.metadata-V2-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.camera.metadata-V2-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.common.fmq-V1-ndk.so",
+      "provider": "android.hardware.common-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "android.hardware.common.fmq-V1-ndk.so",
+      "provider": "android.hardware.common.fmq-V1-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "android.hardware.common.fmq-V1-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEGL_adreno.so",
+      "provider": "libEGL_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libEGL_adreno.so",
+      "provider": "libGLESv2_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libEGL_adreno.so",
+      "provider": "libadreno_utils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEGL_adreno.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEGL_adreno.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEGL_adreno.so",
+      "provider": "libgsl.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libEGL_adreno.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libCB.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libEGL_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libGLESv2_adreno.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libadreno_app_profiles.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libadreno_utils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libgsl.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libllvm-glnext.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libGLESv2_adreno.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_utils.so",
+      "provider": "libadreno_utils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadreno_utils.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_utils.so",
+      "provider": "libgsl.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libkernelmanager.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libkernelmanager.so",
+      "provider": "libkcl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libkernelmanager.so",
+      "provider": "libkernelmanager.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libllvm-qcom.so",
+      "provider": "libadreno_compiler_cl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libllvm-qcom.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libllvm-qcom.so",
+      "provider": "libllvm-qcom.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "android.hardware.graphics.allocator-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libgralloc.qti.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libgralloctypes.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libgrallocutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libmapperutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmapperutils.so",
+      "provider": "libutilscallstack.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "android.hardware.graphics.common@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "android.hardware.graphics.common@1.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "android.hardware.graphics.mapper@3.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "vendor.qti.hardware.display.mapper@3.0.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapper@3.0.so",
+      "provider": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "provider": "vendor.qti.hardware.display.mapperextensions@1.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "provider": "vendor.qti.hardware.display.mapperextensions@1.1.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libnspextensiongenericqnnservice.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libnspextensiongenericqnnservice.so",
+      "provider": "libnspextensiongenericqnnservice.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.hexlp-V2-ndk.so",
+      "provider": "android.hardware.common-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.hexlp-V2-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.hexlp-V2-ndk.so",
+      "provider": "vendor.qti.hardware.hexlp-V2-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libopluspdparam.so",
+      "provider": "libc++_shared.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libopluspdparam.so",
+      "provider": "libopluspdparam.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libdlrmsc.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libdlrmsc.so",
+      "provider": "libcutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libOpenCL.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libQnnCpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libQnnGpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libQnnHtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libQnnSystem.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libaiboost.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libcutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost.so",
+      "provider": "libdmabufheap.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_qnn_external_delegate_te.so",
+      "provider": "libQnnGpu.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_qnn_external_delegate_te.so",
+      "provider": "libQnnHtp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_qnn_external_delegate_te.so",
+      "provider": "libQnnSystem.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_qnn_external_delegate_te.so",
+      "provider": "libaiboost_qnn_external_delegate_te.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libaiboost_qnn_external_delegate_te.so",
+      "provider": "libcdsprpc.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "libadreno_app_profiles.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "libhardware.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "libqspm-mem-utils-vendor.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libadreno_app_profiles.so",
+      "provider": "vendor.qti.qspmhal-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libllvm-glnext.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libllvm-glnext.so",
+      "provider": "libgsl.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libllvm-glnext.so",
+      "provider": "libllvm-glnext.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libllvm-glnext.so",
+      "provider": "libllvm-qgl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libkcl.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libkcl.so",
+      "provider": "libkcl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadreno_compiler_cl.so",
+      "provider": "libadreno_compiler_cl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libadreno_compiler_cl.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "android.hardware.graphics.allocator-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "android.hardware.graphics.common@1.2.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "android.hardware.graphics.mapper@2.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "android.hardware.graphics.mapper@2.1.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "android.hardware.graphics.mapper@3.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "android.hardware.graphics.mapper@4.0.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libadreno_utils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libcamxexternalformatutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libgralloc.qti.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libgralloctypes.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libgrallocutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libhidlbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libgrallocutils.so",
+      "provider": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libqspm-mem-utils-vendor.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqspm-mem-utils-vendor.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqspm-mem-utils-vendor.so",
+      "provider": "libqspm-mem-utils-vendor.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libqspm-mem-utils-vendor.so",
+      "provider": "vendor.qti.qspmhal-V1-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.qspmhal-V1-ndk.so",
+      "provider": "android.hardware.common-V2-ndk.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.qspmhal-V1-ndk.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.qspmhal-V1-ndk.so",
+      "provider": "vendor.qti.qspmhal-V1-ndk.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libllvm-qgl.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libllvm-qgl.so",
+      "provider": "libgsl.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libllvm-qgl.so",
+      "provider": "libllvm-qgl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libcamxexternalformatutils.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcamxexternalformatutils.so",
+      "provider": "libcamxexternalformatutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libcamxexternalformatutils.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcamxexternalformatutils.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libcamxexternalformatutils.so",
+      "provider": "libz.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libadreno_utils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libbase.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libcamxexternalformatutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libjsoncpp.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libmemutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "libvmmem.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "provider": "vendor.qti.hardware.display.snapalloc-impl.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libjsoncpp.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libjsoncpp.so",
+      "provider": "libjsoncpp.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmemutils.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmemutils.so",
+      "provider": "libdisplaydebug.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmemutils.so",
+      "provider": "libion.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libmemutils.so",
+      "provider": "libmemutils.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libmemutils.so",
+      "provider": "libvmmem.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdisplaydebug.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdisplaydebug.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libdisplaydebug.so",
+      "provider": "libdisplaydebug.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libdisplaydebug.so",
+      "provider": "libutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libQnnHtp.so",
+      "provider": "libQnnHtpV81Stub.so",
+      "source": "runtime-composed QNN helper name; V81 selected for lafa"
+    },
+    {
+      "consumer": "libQnnHtp.so",
+      "provider": "libQnnHtpV81CalculatorStub.so",
+      "source": "runtime-composed QNN helper name; V81 selected for lafa"
+    },
+    {
+      "consumer": "libQnnHtp.so",
+      "provider": "libQnnHtpPrepare.so",
+      "source": "runtime-composed QNN helper name; V81 selected for lafa"
+    },
+    {
+      "consumer": "libQnnHtpV81Stub.so",
+      "provider": "libminksocket_vendor.so",
+      "source": "literal library name"
+    },
+    {
+      "consumer": "libminksocket_vendor.so",
+      "provider": "libcutils.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libminksocket_vendor.so",
+      "provider": "libqrtr.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libminksocket_vendor.so",
+      "provider": "libvmmem.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libminksocket_vendor.so",
+      "provider": "libdmabufheap.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libminksocket_vendor.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    },
+    {
+      "consumer": "libqrtr.so",
+      "provider": "libc++.so",
+      "source": "DT_NEEDED"
+    }
+  ],
+  "limitations": "Library-name literals may include optional branches; dynamically composed names require device tests.",
+  "root_scope": "Only app-side JNI/support libraries and their transitive native dependencies; excludes the provider-only OEM HAL.",
+  "runtime_composed_roots": [
+    "libQnnHtpV81Stub.so",
+    "libQnnHtpV81CalculatorStub.so",
+    "libQnnHtpPrepare.so"
+  ]
+}

@@ -1,0 +1,3 @@
+Source: https://github.com/dodge-camera-port/android_hardware_oplus
+Revision: 86db40a4bcd0585bb6718f3f4ecb4680145a2615
+Selected camera dependencies; subsequent lafa adaptations are tracked separately.

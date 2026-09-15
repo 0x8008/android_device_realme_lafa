@@ -1,0 +1,1216 @@
+{
+  "firmware": "RMX5200_16.0.9.402(CN01)",
+  "files": [
+    {
+      "source": "odm/etc/camera/hybridraw_models/QRCodeFlattenPriors.bin",
+      "installed": "odm/etc/camera/hybridraw_models/QRCodeFlattenPriors.bin",
+      "size": 67200,
+      "sha256": "f452a53dbfdce9fdc5635f9eb52fb189c49a1fa052efee35ea0207398e80adb0",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/QRCodeFlattenStride.bin",
+      "installed": "odm/etc/camera/hybridraw_models/QRCodeFlattenStride.bin",
+      "size": 33600,
+      "sha256": "ae76db0286c343bc0bf45396d0b553180e6edc6c4d41ade11fc1700699b552e8",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/QRCode_det.bin",
+      "installed": "odm/etc/camera/hybridraw_models/QRCode_det.bin",
+      "size": 4602200,
+      "sha256": "adfb5e6a774af19a1a9416c2a36eaba58712c73e494bfb27b6b4e713fbbb59b7",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aiDehaze_Heavy.bix",
+      "installed": "odm/etc/camera/hybridraw_models/aiDehaze_Heavy.bix",
+      "size": 8732672,
+      "sha256": "6632a13e1f68a6800073e05def5e0be365f066608f1bc460db1f75e20ae0116b",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aiDehaze_Light.bix",
+      "installed": "odm/etc/camera/hybridraw_models/aiDehaze_Light.bix",
+      "size": 8732672,
+      "sha256": "6632a13e1f68a6800073e05def5e0be365f066608f1bc460db1f75e20ae0116b",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aiFogDet.bix",
+      "installed": "odm/etc/camera/hybridraw_models/aiFogDet.bix",
+      "size": 2621440,
+      "sha256": "75c979b953b184fef05a8ba512bc70c14e6139418224a4ace8c4fc5991d95464",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aiFusion.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aiFusion.bin",
+      "size": 2207744,
+      "sha256": "b8ad3e6015eb0ee974cd2f4d42ed491a7d3963aa4a5419c3ea1dec1eccc53279",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aiInit.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aiInit.bin",
+      "size": 21768,
+      "sha256": "c2a93bc91e7226ce44be77f39a19be791e8f6f20d1445e16be6dadb36de9fd96",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_flow_back.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_flow_back.bix",
+      "size": 9039872,
+      "sha256": "5fce806fa5cccfe951a8e19f3d6b6e1bc3fd20488188a68f19283d7fea57dccb",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_flow_front.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_flow_front.bix",
+      "size": 9039872,
+      "sha256": "88b6625b3d278abc889ed10cd7350f6751ffa365b981d23a5f5dcc094c44ffe9",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_hdr_recovery.bin",
+      "installed": "odm/etc/camera/hybridraw_models/ai_hdr_recovery.bin",
+      "size": 8880128,
+      "sha256": "49bbc49937116bd73610615d792238b7b8ec1aa0722f177c8140a022dcf8c44f",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_motion_detection.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_motion_detection.bix",
+      "size": 8749056,
+      "sha256": "40d2e084145caf551c3277c131ed4935aecd33449e0aa04aec345ee8323d9341",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_motion_mask_0p5M.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_motion_mask_0p5M.bix",
+      "size": 4673536,
+      "sha256": "b47b78da8faf7a08496cdf8356f18d3a2e3464b7e01ec49971b56b91217b5604",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_motion_mask_12MNormal_bs1_w8a8.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_motion_mask_12MNormal_bs1_w8a8.bix",
+      "size": 4673536,
+      "sha256": "079d295a56b315108333a6bf470df3902a870cd8b4fafbc2ac8fcda2f5204809",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_motion_mask_12MNormal_bs3_w8a8.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_motion_mask_12MNormal_bs3_w8a8.bix",
+      "size": 5218304,
+      "sha256": "f2a6f580044d092f8fbad417bf1c324984a98469ec7051be8b454a80683e59cd",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_motion_mask_12MTele_bs1_w8a8.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_motion_mask_12MTele_bs1_w8a8.bix",
+      "size": 4673536,
+      "sha256": "b47b78da8faf7a08496cdf8356f18d3a2e3464b7e01ec49971b56b91217b5604",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_motion_mask_12MTele_bs3_w8a8.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_motion_mask_12MTele_bs3_w8a8.bix",
+      "size": 5218304,
+      "sha256": "a9c6fddfc4d847b4a249a30adb09160a02b4d5df628a835060656a2b947489ec",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_motion_mask_18M.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_motion_mask_18M.bix",
+      "size": 4673536,
+      "sha256": "c291eba7e396878f66a1eae8d2024e7fc7d341171951f05f11ddfa203087cf4b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_motion_mask_50M.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_motion_mask_50M.bix",
+      "size": 4673536,
+      "sha256": "f2421cd2025904e86c955fcca5a560b52a9fc20feca84e8912befbb4ef34b9f3",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_multi_scene_det.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_multi_scene_det.bix",
+      "size": 11665408,
+      "sha256": "175eebf4fa0b37fd74b60781256eb9aa0488dc1bd0a2b973d038d8070742a5af",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_seg_human_landscape.bin",
+      "installed": "odm/etc/camera/hybridraw_models/ai_seg_human_landscape.bin",
+      "size": 7029840,
+      "sha256": "20aa67bb17260afd2ec30bff93a0353e3ab5b0544ec8832a21baf70ae6344b75",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_seg_human_portrait.bin",
+      "installed": "odm/etc/camera/hybridraw_models/ai_seg_human_portrait.bin",
+      "size": 7103568,
+      "sha256": "f7300959dfce9b01753f29134587a27831cb8814c87e2a9d5ae16b882bf30b42",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_seg_skin.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_seg_skin.bix",
+      "size": 14569472,
+      "sha256": "f56bbe4e29cafa47258673be4ba8e2ae7f43ba69963f2ee0fc1c2cc8778a8a46",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_seg_sky_day.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_seg_sky_day.bix",
+      "size": 7213056,
+      "sha256": "2e9dc529acf23a2c5007cc8fa8d6983f4ba3b7506ec83425f2e087850ce60d34",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_seg_sky_night.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_seg_sky_night.bix",
+      "size": 7213056,
+      "sha256": "26370ee56291d0ed3952533a1a5095ddaf2edd039af114adaf5967f2df30b9e8",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_sunset_classify.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_sunset_classify.bix",
+      "size": 11665408,
+      "sha256": "75931a959ca3183d7620d0509f6fdaad18fa1eb693b23b4da37105824d5d0229",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/ai_sunset_classify_highRes.bix",
+      "installed": "odm/etc/camera/hybridraw_models/ai_sunset_classify_highRes.bix",
+      "size": 11665408,
+      "sha256": "38fa4a86d2afbb03b7b0cb3a2624067a8ca8605ed0b8751b364a0e676821d0b1",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_downNet_BackLight_Portrait_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_downNet_BackLight_Portrait_Horizonal.bin",
+      "size": 566928,
+      "sha256": "5ed1ca4e51f5a9970f5d70463d747ba36b0c847857702ef5a388a21d743fffef",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_downNet_BackLight_Portrait_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_downNet_BackLight_Portrait_Vertical.bin",
+      "size": 312976,
+      "sha256": "10d20427bce9b3d5ea1c52a9b6e196e8368aa6eb4d963e16471760f059349f29",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Landscape_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Landscape_Horizonal.bin",
+      "size": 241664,
+      "sha256": "9833faa4743ae3c0f76d0ea1a887f86819ecceef8a48c89509f1b028b9e16421",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Landscape_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Landscape_Vertical.bin",
+      "size": 237568,
+      "sha256": "d1544ba78ccf848288330623384c87af2b92e580c7f0f376c8485bd17fd0c2a7",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Portrait_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Portrait_Horizonal.bin",
+      "size": 241664,
+      "sha256": "d032042a3587e6af47b81062bd65f5a30aaadd3d87e07d4cb393eeef26635852",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Portrait_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Portrait_Vertical.bin",
+      "size": 237568,
+      "sha256": "b0627395ec4e65fdf6fc1104de586127dc6b18b354d84d71dd70dbbdad468640",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_BackLight_Portrait_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_BackLight_Portrait_Horizonal.bin",
+      "size": 5529456,
+      "sha256": "bfc1395d6b3a988dec311b8570dd23ce518a2308b13f34f00d6bd95d9547b610",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_BackLight_Portrait_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_BackLight_Portrait_Vertical.bin",
+      "size": 5562224,
+      "sha256": "12f8d46cc0b7d320fe4a09d528169bcd5085de5a39b1ecac4562491237502fa0",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Landscape_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Landscape_Horizonal.bin",
+      "size": 4243456,
+      "sha256": "7e951c5fca7b2c24f9e4fd375a10b7b0f2d35f5a56f521538fbbea66a38389ed",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Landscape_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Landscape_Vertical.bin",
+      "size": 4501504,
+      "sha256": "dd2d6d0063474ceafdb44dd4c6ed91283404af9701cb81b6caaba19746a302db",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Portrait_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Portrait_Horizonal.bin",
+      "size": 5148672,
+      "sha256": "6a2f91388a2f1efdba0eddf4ecb021f07dc6dcee93a4717c4e0a16ca33b15e76",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Portrait_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Portrait_Vertical.bin",
+      "size": 5513216,
+      "sha256": "a5da2f2d8cbaf3eb3460f66ec788086519c5fc01bf1febaa92fbae41fb18b99d",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_upNet_BackLight_Portrait_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_upNet_BackLight_Portrait_Horizonal.bin",
+      "size": 292648,
+      "sha256": "4ff9f4cdc8abd7325529014ea42051f3e477cb72de85660df33e1455665f42c9",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_upNet_BackLight_Portrait_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_upNet_BackLight_Portrait_Vertical.bin",
+      "size": 374568,
+      "sha256": "658b66e53c5e40beb51b7c6dd2727dee7542ab59f50beeff4c8d7edd6f665b1f",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Landscape_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Landscape_Horizonal.bin",
+      "size": 315392,
+      "sha256": "2c35735b12fb358d7a7eeba31c0d847cea83041273b0e177bbfbe0057986630a",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Landscape_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Landscape_Vertical.bin",
+      "size": 327680,
+      "sha256": "379fc7682e51613ed1a6ec0afa4ca54e4fdb935dd67e2f92b9a32c3d16f5a37e",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Portrait_Horizonal.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Portrait_Horizonal.bin",
+      "size": 315392,
+      "sha256": "7cdc326b9219f8066fbadffb8286af384fec13ee9f4ab62ffb6e6bef22044717",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Portrait_Vertical.bin",
+      "installed": "odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Portrait_Vertical.bin",
+      "size": 327680,
+      "sha256": "bfbbd4c3a3d493628f4c59bcb2ce592c7e49d761274cae866a3e6b7e3876204a",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/detail_net.bin",
+      "installed": "odm/etc/camera/hybridraw_models/detail_net.bin",
+      "size": 311296,
+      "sha256": "093ea94f286417eba99c219ac3ff35c33cdac54425bd953f4ab01c822d02fceb",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/disto_xy_2048x1536x2.raw",
+      "installed": "odm/etc/camera/hybridraw_models/disto_xy_2048x1536x2.raw",
+      "size": 25165824,
+      "sha256": "bac59e475220a5dae178acbbb387d37e2273019c7bdc5beac22698d811e9ca9e",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/faceDetPriors.bin",
+      "installed": "odm/etc/camera/hybridraw_models/faceDetPriors.bin",
+      "size": 282240,
+      "sha256": "b1eb6dabd0888b784b0105d234e884d8a79a27cabe1fe0d0ac38330541b16e20",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/face_det.bin",
+      "installed": "odm/etc/camera/hybridraw_models/face_det.bin",
+      "size": 799480,
+      "sha256": "8afe585caad8f3f428bd0dcde5bcd8d1f9c927cd488ebed584ecd464e8da3e06",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/front_main_binning_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/front_main_binning_ev0.bin",
+      "size": 4403200,
+      "sha256": "83df9c0dd771bd6a36bdca6ae952b19a91c05708d38a18e7a491172cf7303e24",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/front_main_binning_ev0_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/front_main_binning_ev0_3f.bin",
+      "size": 3690496,
+      "sha256": "3ebaf780ef44c96b444fb35ae20ea9206f3d832ba40c7cd05d76c39ccf5e7c20",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/front_main_binning_evm.bin",
+      "installed": "odm/etc/camera/hybridraw_models/front_main_binning_evm.bin",
+      "size": 2830336,
+      "sha256": "f9412e4e7b054cd406f48e5ee9fb03ce9118850f3e62c0e465830ddb2875e553",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/front_main_binning_evmm.bin",
+      "installed": "odm/etc/camera/hybridraw_models/front_main_binning_evmm.bin",
+      "size": 2830336,
+      "sha256": "51b4b112b44854b0ded371507552cc4199e34b2dd7428bae50e53a9f2a580e02",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gan_enhancer_20x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gan_enhancer_20x.bin",
+      "size": 7819264,
+      "sha256": "a3cfbd3764dbed609fb462b99d6e6493f869c3156e6765aed19522ed750c00d9",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gan_enhancer_20x_binning.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gan_enhancer_20x_binning.bin",
+      "size": 7823360,
+      "sha256": "13eb73af204945514e79c8c88951a1a6ae077136749471094efc7ea2c703b4ae",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gan_enhancer_40x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gan_enhancer_40x.bin",
+      "size": 11128832,
+      "sha256": "90639ad30a69c70ddb0ac26c5eec1129b308fbbce7174f7ea5961cf701ef4ab4",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gan_enhancer_40x_binning.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gan_enhancer_40x_binning.bin",
+      "size": 11059200,
+      "sha256": "61289bdd8976e904525c3079019cf069906605674b04fe820ae03c2c6027a13d",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gan_enhancer_60x_sd.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gan_enhancer_60x_sd.bin",
+      "size": 8491008,
+      "sha256": "b4881ba9f691559dba45167650b417b4f6d51c58cf851eec18f69ddcc7722b42",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gan_enhancer_80x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gan_enhancer_80x.bin",
+      "size": 11128832,
+      "sha256": "90639ad30a69c70ddb0ac26c5eec1129b308fbbce7174f7ea5961cf701ef4ab4",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gan_enhancer_80x_binning.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gan_enhancer_80x_binning.bin",
+      "size": 11059200,
+      "sha256": "61289bdd8976e904525c3079019cf069906605674b04fe820ae03c2c6027a13d",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gan_enhancer_90x_sd.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gan_enhancer_90x_sd.bin",
+      "size": 10530816,
+      "sha256": "a9397b6483f91df9be8a672a3740e527295b37b3e509aeaf9fd193896b1b6f81",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/gtm_curve_65536_fp32.bin",
+      "installed": "odm/etc/camera/hybridraw_models/gtm_curve_65536_fp32.bin",
+      "size": 262144,
+      "sha256": "f01ed647e5ad8f71f683e549d7ca8b843052a487eca8b2eb37858533ec084d62",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/jdd_enhancernet.bix",
+      "installed": "odm/etc/camera/hybridraw_models/jdd_enhancernet.bix",
+      "size": 405504,
+      "sha256": "a764cfd2e25e6fc484bb7afc71ca37cc340e9d8d470245e12bf8109a63fffc36",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/jdd_enhancernet_25m.bix",
+      "installed": "odm/etc/camera/hybridraw_models/jdd_enhancernet_25m.bix",
+      "size": 598016,
+      "sha256": "d6469191a2c1eadba108336e6ed1514e2a4965f8dce3e2641bdafe6215c77c3b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/jdd_enhancernet_night_portrait.bix",
+      "installed": "odm/etc/camera/hybridraw_models/jdd_enhancernet_night_portrait.bix",
+      "size": 405504,
+      "sha256": "0c602d25fc95d52e08593d354a7ff1c6ed5547cd5a5db6069e7322eed08365c9",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/jdd_enhancernet_pet.bin",
+      "installed": "odm/etc/camera/hybridraw_models/jdd_enhancernet_pet.bin",
+      "size": 389120,
+      "sha256": "1fe2b003109fc3d50f09922cca2c28c3677fff4eac408a71917855c32ff3fb23",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/main_binning_ev0_sf.bin",
+      "installed": "odm/etc/camera/hybridraw_models/main_binning_ev0_sf.bin",
+      "size": 4337056,
+      "sha256": "d6cc063d2ceb8731a68bce2a1fa62ed7d2e1693bd8887460bbf0bf31974001d4",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/pedestrianDetPriors.bin",
+      "installed": "odm/etc/camera/hybridraw_models/pedestrianDetPriors.bin",
+      "size": 482944,
+      "sha256": "8796e632d6d6d5bd894677e5c314dc3a01b342982d0222c66c1b76ca20c49bdb",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/pedestrian_det.bin",
+      "installed": "odm/etc/camera/hybridraw_models/pedestrian_det.bin",
+      "size": 4338288,
+      "sha256": "2e272e3fffbdb3cd34c1e7cc4f2be009e5b1614e31ab8399d58f93fb5417b5e9",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0.bin",
+      "size": 2883584,
+      "sha256": "3ca54129b1ccba57dd8a072fbde8b006122e49f703cd4e378981b0ae2e2f24bb",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_3f.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_3f.bix",
+      "size": 2838528,
+      "sha256": "be99a1d22599b5094aaa1d7451f3729d3e946b274da05bb6d18b7cb95cb4a562",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_3f_underwater.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_3f_underwater.bin",
+      "size": 2838528,
+      "sha256": "ea66af02746e8a9b41d2d56ba4dec823e1af69da5d68e66238b12ad159eda998",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_motion_3f.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_motion_3f.bix",
+      "size": 3194880,
+      "sha256": "6a8d9e2c06958771828a51f22ee4bc83f88d61cb51cb03e791ae1fa2f4efef3b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_night_3f.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_night_3f.bix",
+      "size": 2838528,
+      "sha256": "886ae15189738d1b3d2ba80a2fb1e694c832287706e36b69d07aa3660a94bc90",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_person_3f.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_ev0_person_3f.bix",
+      "size": 2838528,
+      "sha256": "1da6be3c82ec3c2c15e8ddae7ed1f517892b25c9b2dc68b9133902f76b7dad4b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_evm.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_evm.bix",
+      "size": 2412544,
+      "sha256": "d9e0eb1918113a437936210f2598c59a5887a0fadd5652769a32441168a9571c",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_evm_landscape.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_evm_landscape.bix",
+      "size": 2412544,
+      "sha256": "fa4433f36ab174eeaf5757cfdbef2e7e780315f85b098f7814e8483edeee2dfb",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_evm_snapshot.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_evm_snapshot.bix",
+      "size": 3022848,
+      "sha256": "84a2165eb5ebd75fd025606b2ab95b9714e02c1b9a03100cdd8ad55b9d6d789c",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_binning_evmm.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_binning_evmm.bix",
+      "size": 2293760,
+      "sha256": "47f992355ab92b038b0af04ea5249ce00729be7be1ca20b8ec1dbfe5622269ff",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_mix_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_mix_ev0.bin",
+      "size": 3354624,
+      "sha256": "8a7e950f22540a6589ff32ded9b7f28af9c108ef292522ef84464de3b992ff66",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_mix_ev0_25M.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_mix_ev0_25M.bin",
+      "size": 3620864,
+      "sha256": "f384a6be24b4897fae5132b88025cb959be0f28700d7cbbf565c2259500ec9fe",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_mix_ev0_landscape.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_mix_ev0_landscape.bin",
+      "size": 3354624,
+      "sha256": "019efdb75418d9e2874fefb558dbae249929ea5a6c0bb677ee29fded6a00a867",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_2x_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_2x_3f.bin",
+      "size": 2940928,
+      "sha256": "5ff6afccf2355e0290f00cf65ad11ee9ee978de5f5b1468bc9b5cb254e2afa32",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_2x_3f_landscape.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_2x_3f_landscape.bin",
+      "size": 2940928,
+      "sha256": "2defeb3e128a64cd1c6db30a040e45dbf1e747612df1e834979e65e9bf310f32",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_50m_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_50m_3f.bin",
+      "size": 3768320,
+      "sha256": "e57bd8ac6a1d647791ab2e07e623896a287debcc863e2cc88eb80497af5e5420",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_2x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_2x.bin",
+      "size": 4653056,
+      "sha256": "2b16174e12f5d561e3d65ad593af0952ea5fdd6eefbe5c656f94646eebdc0121",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_2x_landscape.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_2x_landscape.bin",
+      "size": 2994176,
+      "sha256": "c278ad30a94dac4de0d28ee42b47da5ffef15d107193c141898a71c143ff8de1",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_snapshot_2x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_snapshot_2x.bin",
+      "size": 2994176,
+      "sha256": "d661963a332b6716ba3006d7f2df8ffd93d6b7169efc3b1e828dc2e768edc1a9",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_evmm_2x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_main_quadbayer_evmm_2x.bin",
+      "size": 4653056,
+      "sha256": "e1e383f059b8851a1af0bb8356202aa3341a6b259bafda36f3edba8422744d91",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x.bin",
+      "size": 16707584,
+      "sha256": "9c5d2e8f18fda1c15de032eee423fe0f64ef638d65bedd67e75a5e0910091588",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x_3f.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x_3f.bix",
+      "size": 2838528,
+      "sha256": "1a1ab4a0e5dc889366dd765440447ac3625e0cc04227517686cb2748c814cb54",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x_motion_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x_motion_3f.bin",
+      "size": 3194880,
+      "sha256": "c4bc18f306a971a68a19b03ff8d2072a718d557cd9f771df78439d66d9fa1e43",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_night_3x_3f.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_night_3x_3f.bix",
+      "size": 2834432,
+      "sha256": "000e1d021dcbc9c6fb6181e370c993bf882a6c7f0cc84781ec62fe8691f3089c",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_3x.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_3x.bix",
+      "size": 2404352,
+      "sha256": "aef3b6be1b1f1a0ac2f40aec2bbd3516a8164f9f89d9ba51daece7f1e2447fa8",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_3x_landscape.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_3x_landscape.bix",
+      "size": 2404352,
+      "sha256": "48477ce5c794280561f4282b6877123fe52c061f86a024eca2948b7f1a01ad25",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_snapshot_3x.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_snapshot_3x.bix",
+      "size": 3022848,
+      "sha256": "0bc387bd724a6f19f825a69a085145d29faef5a0d0e05f6cd60d3611c92770a9",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_binning_evmm_3x.bix",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_binning_evmm_3x.bix",
+      "size": 2293760,
+      "sha256": "afe695768a03783f1b837bb7f0cb5d85d9d44d2b8ecbab1de20bcbc46c4113f8",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0.bin",
+      "size": 10403840,
+      "sha256": "0b8935ac87d00d2adec721eded6c2be0c2028d631a4812aa1b90db4737869f1a",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_3f.bin",
+      "size": 8740864,
+      "sha256": "624a52e35e82001203f844fb434d4650f22e24a597ddf8e67ad664f317563e61",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_3f_200m.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_3f_200m.bin",
+      "size": 3457024,
+      "sha256": "7ed0715c70d9e7d5165cea9e366cba677b0bc77aadfef148e47564f05954fd73",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_person.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_person.bin",
+      "size": 11759616,
+      "sha256": "7084d3fe091e0c3da99e6cde2d0e6f2cc7dc1bf052d86852ad36b968a8f9f842",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_person_3f_200m.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_person_3f_200m.bin",
+      "size": 3457024,
+      "sha256": "60f29cae802d28f5bced623644bead67df57bd25bf5f6986d075d267849a3bb3",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_evm.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_evm.bin",
+      "size": 1830912,
+      "sha256": "2f8b0b63ab38bd5d40d3b09073d510693fa647c573c473bc35c02c9f645f65e8",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_mix_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_mix_ev0.bin",
+      "size": 2793472,
+      "sha256": "0913de9ae65a0fc4b2aef5f2966cce839b2b9bf7c47667bcf425aac24a0276e0",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_mix_ev0_25M.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_mix_ev0_25M.bin",
+      "size": 3661824,
+      "sha256": "3dbd750b457733a60724d8453a42b14ee1c2e08d4a1ee4c7f75c772f64e5caff",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_10x_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_10x_3f.bin",
+      "size": 8974336,
+      "sha256": "4ca0d5e519ab8ed5bbf30c3bca6dab3582d975553abe07bacf729fc81ce8af33",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_3f.bin",
+      "size": 3768320,
+      "sha256": "e5e42ace1c5042111ed09c11eece2cc26fe8ada559db0a5be4def947fcc67a80",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_3f.bin",
+      "size": 2940928,
+      "sha256": "e7621a0a3b5700dc60b2fb69cc3acd8726e9ec60fa8f7c16aabbb4438beda6d3",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_3f_landscape.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_3f_landscape.bin",
+      "size": 2940928,
+      "sha256": "b875db771f7f541137d7cecf4650d6779b088e4540140b95e411243dc6bc4b5b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_night_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_night_3f.bin",
+      "size": 9011200,
+      "sha256": "60fca71e41f94511e1cb40eb08c1b1056f327f64ac130ebdf3df68c56a1ea3e3",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_fallback.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_fallback.bin",
+      "size": 2793472,
+      "sha256": "27a19aacaa286066f483ae6911cf821d52b6e71d811d1670cec5d71456fdc687",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_supernight.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_supernight.bin",
+      "size": 12132352,
+      "sha256": "e2a604f44e40a5fc7b2b3b363019106be7e5cb1bdd7331af0c8361a3e422aada",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm.bin",
+      "size": 4677632,
+      "sha256": "fbe31db716a9bdacc5207112fe1963e04dccfb6659b002f7434adcf1639598eb",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm_6x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm_6x.bin",
+      "size": 4468736,
+      "sha256": "e59d9a4e336a8302438424dab569bff01e41bfba005c5131650b3f409013a433",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm_snapshot_6x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm_snapshot_6x.bin",
+      "size": 2826240,
+      "sha256": "8bec617f9f9a9ab742f3958f395f26c75fbeec0d840f7a3f2ce41107f540210b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evmm_6x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evmm_6x.bin",
+      "size": 4468736,
+      "sha256": "ec9b4fd149c526390f558352bf7abbff1902a38d407f9922c2ce7f1916150988",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x.bin",
+      "size": 16593840,
+      "sha256": "1868cb85e4c67e5e0ac0cf37c84cb904d2632117cbbf87563a414b8e74683fca",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_3f.bin",
+      "size": 2755904,
+      "sha256": "df44e22d3882ada0eb4ea1992e2f5b42b4a446451ad1aeea6e402f94e18debb6",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_3f_person.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_3f_person.bin",
+      "size": 2755904,
+      "sha256": "3633b84448f76308f60aeb801aca4a0cc1aba290f7daa70d07e3f160075871df",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_motion_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_motion_3f.bin",
+      "size": 3136824,
+      "sha256": "3703a6124cb377be98bdd7aaa006aa09a4d270f2439bdc3d0d4e07071aeea4fd",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_night_6x_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_night_6x_3f.bin",
+      "size": 2728136,
+      "sha256": "7bd3b1771421e56ba827e7ab5623c93a6759ee294b8b2203f0117d0c2da40185",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_6x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_6x.bin",
+      "size": 2612744,
+      "sha256": "c6365f062991d8a16fab6df4b1ad8365d8bed6c1c4cdc8743ab8bfbcafbc8904",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_6x_landscape.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_6x_landscape.bin",
+      "size": 2600464,
+      "sha256": "0a24e726cd7b6d7f0af7e97b774acee573030456875f52c9035baae559010615",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_snapshot_6x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_snapshot_6x.bin",
+      "size": 3001992,
+      "sha256": "1c68c1fbcfa8327bf22076cc11bd5cf8ca7c80e22e500ba6481876b36fa0111f",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_binning_evmm_6x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_binning_evmm_6x.bin",
+      "size": 2612752,
+      "sha256": "ff3b923847fb561cb3dba5416d99de8fd2c0f4ebc64c521aff42124b5353979c",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_mix_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_mix_ev0.bin",
+      "size": 3223336,
+      "sha256": "465a75590c3f6abf89be5f44c99f7359e28955feabb475a96aece7215089eeb2",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_tele2_mix_ev0_25M.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_tele2_mix_ev0_25M.bin",
+      "size": 3464736,
+      "sha256": "9670ab89c12d9b2c92925bd5871c2e1b6d89630f332b63c5f0d1233ad6bec01b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0.bin",
+      "size": 2773184,
+      "sha256": "6816460e500e99cb47d30d10b117b12eee2188a7efe54d7a77b76d991d7bcd2f",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f.bin",
+      "size": 3132136,
+      "sha256": "1913a5982ad2ee3d12d563b3b736cab9928de842399f6ff091d644a465b3dc04",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f_higher_iso.bin",
+      "size": 2755904,
+      "sha256": "8b9bb6e8803e190307c70895c987ff1ffb7a533dc9c2ecfe53899a8d8ca3f710",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f_lower_iso.bin",
+      "size": 2755904,
+      "sha256": "4178af600ee2762ca9de44f9f66492b5a77bb36789e34b55d07d5bc73677114e",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_day5f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_day5f.bin",
+      "size": 3473408,
+      "sha256": "2757cd9820501d3ba8197b91fb4736ffb6076bb8a81238104f59e0c4ce3cff0d",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_day_and_night_5f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_day_and_night_5f.bin",
+      "size": 3571712,
+      "sha256": "b5f720988249775a379224d3d6b69eca39bf5812a7841d464fd530cc1e403841",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_motion_3f_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_motion_3f_higher_iso.bin",
+      "size": 3194880,
+      "sha256": "fb52d56b77a40715e760cda1d6725d75f6ed5aa5009a763a849747dc3c6dee92",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_motion_3f_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_motion_3f_lower_iso.bin",
+      "size": 3194880,
+      "sha256": "2904fd8227b564c2f546b9a3d6e1bcf0e3db6423f16e5e458327a2ab5d9aad22",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm.bin",
+      "size": 2563000,
+      "sha256": "be9835b294da977d0558c4f3b04c69deecc930aba2c679d1667e66930ac0edfd",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_higher_iso.bin",
+      "size": 2457600,
+      "sha256": "e31bfdf55a075e2fe8f417956eaa7fa3bfd2cbaeaca192379a6951fe72560727",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_higher_iso_landscape.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_higher_iso_landscape.bin",
+      "size": 2457600,
+      "sha256": "659b04763932bae687fb264c76b47849c3b2ace63c1d5acc70e1065c9c51f3d5",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_lower_iso.bin",
+      "size": 2473984,
+      "sha256": "6c338e1880be831bfdbe6192c3ced5cde0157377e81cc8183285b599295654c8",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_lower_iso_landscape.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_lower_iso_landscape.bin",
+      "size": 2457600,
+      "sha256": "b735fb8b06ae266060550988b101b6a281af1a21e9211f79f8fbef0c6880661e",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_snapshot_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_snapshot_higher_iso.bin",
+      "size": 3022848,
+      "sha256": "2e65fc2744b8fbe0bbcc1f24af4bfa6d0d374d4c947e41225abab3e6116de158",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_snapshot_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evm_snapshot_lower_iso.bin",
+      "size": 3309568,
+      "sha256": "843fb69453cc3f32d6033b9beb4bc495f0c75fa6999d8919d41098fe1dbc9b02",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evmm_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evmm_higher_iso.bin",
+      "size": 2457600,
+      "sha256": "f0e94a914f44df750cfb0b2432e4190d4ed1a25a8ec21cebe8277ca0eae9ef73",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_binning_evmm_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_binning_evmm_lower_iso.bin",
+      "size": 2486272,
+      "sha256": "26f940ba5ee748c5f0bd58089fc831d25fa05fcf77a2bc277bd6d4a2698054e5",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_mix_ev0_25M_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_mix_ev0_25M_higher_iso.bin",
+      "size": 3464720,
+      "sha256": "9b36497d8ce0595a0eb212a5e4ea358d0edcf555bbdfc1b5035ecc223e4a9d31",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/photo_uw_mix_ev0_25M_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/photo_uw_mix_ev0_25M_lower_iso.bin",
+      "size": 3464728,
+      "sha256": "d78f990cad0054bb337706550954a6addb9010bfa63d4c535261819393ca8dbe",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/postSr.bin",
+      "installed": "odm/etc/camera/hybridraw_models/postSr.bin",
+      "size": 1077248,
+      "sha256": "af40822eb9a2fa8264fe85d24773d27d6a8d0902de614ce746062a539cd2ccdb",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/sd_noise0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/sd_noise0.bin",
+      "size": 5308416,
+      "sha256": "9acc8e88ee6b663b67724ba9b0570c2d08f325cae92dc1662bd7ef03755286b7",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/sd_noise2.bin",
+      "installed": "odm/etc/camera/hybridraw_models/sd_noise2.bin",
+      "size": 110592,
+      "sha256": "fc246c6cc6c6e9b33d900eb908b828bb1c8a0af9b37888cf99f4248d4b23109b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele1_binning_ev0_sf_3x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele1_binning_ev0_sf_3x.bin",
+      "size": 3468800,
+      "sha256": "97b3a94a1e8ecf3afc6a796b0d64ec58264b2a35a0dd9aa17b52482b48e8e3be",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele2_binning_ev0_sf_6x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele2_binning_ev0_sf_6x.bin",
+      "size": 3460616,
+      "sha256": "31ea9fbade85bbd63e46cf16f6316c180305b30ea4ed8b39617f64d6cc18376b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele2_quadbayer_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele2_quadbayer_ev0.bin",
+      "size": 3579712,
+      "sha256": "3a621f1189d915c808c349f06bb22f382cb2a15a22b02265d99999914757665b",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele_binning_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele_binning_ev0.bin",
+      "size": 22985344,
+      "sha256": "b2818e0797693ca8a3b465592d7954664853804096a7204846ad91baddb7270c",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele_binning_ev0_60x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele_binning_ev0_60x.bin",
+      "size": 21088896,
+      "sha256": "02fbb0520eb81281db2a4bd5eaee2981fede94034775f81ce39cce8bf5f19518",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele_binning_evm.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele_binning_evm.bin",
+      "size": 3002000,
+      "sha256": "fba017fb0cbe0c62b988030d760bfe50c80b1101cde92e4c2044ff410e17bbc5",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele_quadbayer_ev0.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele_quadbayer_ev0.bin",
+      "size": 3043464,
+      "sha256": "7f162bef447056f47f433800a542714252493b8ee291b99df37c5c64c1e08ffa",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele_quadbayer_ev0_10x_18M_3f.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele_quadbayer_ev0_10x_18M_3f.bin",
+      "size": 3485512,
+      "sha256": "124b2e2774d10520d194c9a489046ab29d787a9747ae6a1d80e623688f6ab129",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele_quadbayer_ev0_20x.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele_quadbayer_ev0_20x.bin",
+      "size": 10388536,
+      "sha256": "7d43e40258b54caf8235eb91cbd9a3e91dbc5d514f6ac9099726e66605479d7c",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele_quadbayer_evm_10x_18M.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele_quadbayer_evm_10x_18M.bin",
+      "size": 4575040,
+      "sha256": "a9f2f803ba0ac538dc235ac1cdbdc1af73ca56359be94ad20e1a794aef5d32c3",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/tele_quadbayer_evmm.bin",
+      "installed": "odm/etc/camera/hybridraw_models/tele_quadbayer_evmm.bin",
+      "size": 4505312,
+      "sha256": "0352fd704fcf8e3c0dfe0c9a65c34be47235ec16c4c3338faef69d4bea2574bb",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/text_det.bin",
+      "installed": "odm/etc/camera/hybridraw_models/text_det.bin",
+      "size": 31402040,
+      "sha256": "4e250a5cac1cce702df32ad06d48cfbbeef7550e9086f9eeeafe9dcde36c8a1f",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/text_embedding.bin",
+      "installed": "odm/etc/camera/hybridraw_models/text_embedding.bin",
+      "size": 315392,
+      "sha256": "22c81a79157bb812c3e6460d1d0451e537859e582d23f0552ed4987a303a7914",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/unet.bix",
+      "installed": "odm/etc/camera/hybridraw_models/unet.bix",
+      "size": 451141632,
+      "sha256": "b175a7fccde5f85f6a5adb6a08ff34ee82990168069378f9f1fc82901dad3241",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/uw_binning_ev0_sf_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/uw_binning_ev0_sf_higher_iso.bin",
+      "size": 3399072,
+      "sha256": "18ab924361c2cd2a7fe75be052ec84b835df9e67517da538be0e12228c16ff22",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/uw_binning_ev0_sf_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/uw_binning_ev0_sf_lower_iso.bin",
+      "size": 3399072,
+      "sha256": "80b9d8178213796598cb014f34c5f8f0b2718eef5464468dedc512b61538a61f",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/uw_quadbayer_ev0_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/uw_quadbayer_ev0_higher_iso.bin",
+      "size": 2936232,
+      "sha256": "c187b01d1ce25236abe25895f47159203951dca6ec764e1facb9139d6c694d21",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/uw_quadbayer_ev0_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/uw_quadbayer_ev0_lower_iso.bin",
+      "size": 2936232,
+      "sha256": "dbb83fbbfba8fd0b98f5aa89f1707e40675c368a164f7412fddb8736333e0d6c",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/uw_quadbayer_evm_higher_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/uw_quadbayer_evm_higher_iso.bin",
+      "size": 4538168,
+      "sha256": "4ec7f59731b6d04f721a8a752634283518eff90cfee90904577b576f139ed9b4",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/uw_quadbayer_evm_lower_iso.bin",
+      "installed": "odm/etc/camera/hybridraw_models/uw_quadbayer_evm_lower_iso.bin",
+      "size": 4538168,
+      "sha256": "7cd7452491bea149dea655bede3cbbe3ba986133be685e12e236c4c5ab5530f1",
+      "camera_port_supplied": true
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/vae_decoder.bix",
+      "installed": "odm/etc/camera/hybridraw_models/vae_decoder.bix",
+      "size": 6897664,
+      "sha256": "a2a6cb5d34a8c464917b107cb25c7d0231e7c059c0dba71f0ee53a654d66670e",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/vae_decoder_vertical.bix",
+      "installed": "odm/etc/camera/hybridraw_models/vae_decoder_vertical.bix",
+      "size": 9089024,
+      "sha256": "e3d382ab022ef0791b02aa16817c985250b82a985da36249146ef0c5a0718fae",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/vae_encoder.bix",
+      "installed": "odm/etc/camera/hybridraw_models/vae_encoder.bix",
+      "size": 6262784,
+      "sha256": "223b353a572c22895e78e8ce1be5e24e3491d0cc3cf23db73edcf265647135c8",
+      "camera_port_supplied": false
+    },
+    {
+      "source": "odm/etc/camera/hybridraw_models/vae_encoder_vertical.bix",
+      "installed": "odm/etc/camera/hybridraw_models/vae_encoder_vertical.bix",
+      "size": 5177344,
+      "sha256": "51d8152bcb8032b940ad4a4e23face67252539c0f9f059c47a17165eb8badb0a",
+      "camera_port_supplied": false
+    }
+  ]
+}

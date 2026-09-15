@@ -1,0 +1,14 @@
+--- a/libc/bionic/custom_rom_hide.cpp
++++ b/libc/bionic/custom_rom_hide.cpp
+@@ -71,7 +71,11 @@
+ };
+ 
+ static const char* const kAllowlistedPackages[] = {
+     "org.lineageos.updater",
++    // debuggerd execs these helpers with the crashed app's UID. They need
++    // the real process maps; their SELinux domain cannot fill filtered memfds.
++    "crash_dump32",
++    "crash_dump64",
+     nullptr
+ };
+ 

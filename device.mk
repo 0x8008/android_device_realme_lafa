@@ -93,3 +93,6 @@ $(call inherit-product, device/oneplus/sm8850-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/lafa/lafa-vendor.mk)
+
+# Stock camera prototype
+$(call inherit-product, vendor/realme/lafa-camera/camera.mk)

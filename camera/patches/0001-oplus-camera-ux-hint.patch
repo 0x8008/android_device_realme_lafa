@@ -1,0 +1,11 @@
+diff --git a/oplus-fwk/src/com/oplus/uifirst/OplusUIFirstManager.java b/oplus-fwk/src/com/oplus/uifirst/OplusUIFirstManager.java
+index ebec5c5..a2f6f09 100644
+--- a/oplus-fwk/src/com/oplus/uifirst/OplusUIFirstManager.java
++++ b/oplus-fwk/src/com/oplus/uifirst/OplusUIFirstManager.java
+@@ -14,4 +14,6 @@ public class OplusUIFirstManager implements IOplusUIFirstManager {
+         }
+         return sInstance;
+     }
++    // Stock camera SDK hint; scheduling remains managed by the ROM.
++    public void setUxThreadValue(int pid, int tid, String value) {}
+ }

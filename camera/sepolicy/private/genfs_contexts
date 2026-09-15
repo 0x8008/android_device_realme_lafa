@@ -1,0 +1,2 @@
+# Storage-model information read by CaptureDeferUtils at camera startup.
+genfscon proc /devinfo/ufs u:object_r:lafa_camera_ufs_proc:s0

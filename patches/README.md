@@ -1,7 +1,7 @@
 # Shared source changes for Evolution X cnb
 
 These changes reproduce the shared-source configuration used for the
-September 14, 2026 `wallpaperfix1` build. Start with the clean dependency
+September 15, 2026 shareable build. Start with the clean dependency
 revisions in [lafa.xml](../manifests/lafa.xml). Run commands from the Android
 source root after syncing and hydrating Git LFS files.
 
@@ -32,14 +32,24 @@ SHA-256: `9df3a3da360a479799db9e755eeaa5ae2161e4ae194121db3929ac2147131b46`.
 | `0002`–`0004` | Select stock audio, AGM and PAL components when `lafa.use_stock_hal` is true. |
 | `0005` | Select stock display components and their matching init/VINTF files. |
 | `0006` | Remove the Android 16 Flex clock that crashes the Android 17 wallpaper picker. |
+| `camera/patches/0001` | Supply the camera UX-hint API expected by the stock app. |
+| `camera/patches/0002` | Select the matching realme sensor bridge when this camera port is enabled. |
+| `camera/patches/0003` | Preserve real process maps for native crash reports. |
+| `camera/patches/0004` | Return correct Qualcomm P010 image planes during photo saving. |
+
+The camera's `0005` zoom extraction fix is already integrated into this device
+tree. Do not apply it again. Camera sources are included under `camera/`; the
+build setup copies them into `vendor/realme/lafa-camera`.
 
 The stock-HAL switch defaults to the source modules for other devices.
 Powercap and clock patches affect their shared repositories and must be
 reviewed if those repositories are updated or used for other products.
 
 [series](series) lists each project, its base revision and its patch. The
-following commands check every base and patch before applying any patch;
-patches already applied to those same revisions are accepted:
+following commands check every base and patch before applying any patch.
+The common vendor checkout may advance from its pinned base through the audio
+cherry-pick above; the remaining projects must stay at their pinned revisions.
+Already-applied patches are accepted:
 
 ```bash
 (
@@ -47,8 +57,12 @@ patches already applied to those same revisions are accepted:
     lafa_patches="$PWD/device/realme/lafa/patches"
     while read -r project revision patch; do
         if [ "$(git -C "$project" rev-parse HEAD)" != "$revision" ]; then
-            echo "Unexpected revision: $project" >&2
-            exit 1
+            if [ "$project" = "vendor/oneplus/sm8850-common" ]; then
+                git -C "$project" merge-base --is-ancestor "$revision" HEAD
+            else
+                echo "Unexpected revision: $project" >&2
+                exit 1
+            fi
         fi
         if ! git -C "$project" apply --reverse --check "$lafa_patches/$patch" 2>/dev/null; then
             git -C "$project" apply --check "$lafa_patches/$patch"

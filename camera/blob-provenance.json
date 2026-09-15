@@ -1,0 +1,268 @@
+[
+  {
+    "source": "my_product/lib64/libAPSClient-alog-jni.so",
+    "installed": "system_ext/lib64/libAPSClient-alog-jni.so",
+    "stock_sha256": "c3847ba4fc1ee76ba82bbce0d08bec853bba1afc9130e28bd1db19b1d6b32353",
+    "sha256": "c3847ba4fc1ee76ba82bbce0d08bec853bba1afc9130e28bd1db19b1d6b32353",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAPSClient-cmd-jni.so",
+    "installed": "system_ext/lib64/libAPSClient-cmd-jni.so",
+    "stock_sha256": "b6669463a2dbdc22d20d0bb1a565ef9f1cc058f5f34c627a8d49971f7c509bec",
+    "sha256": "b6669463a2dbdc22d20d0bb1a565ef9f1cc058f5f34c627a8d49971f7c509bec",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAPSClient-jni.so",
+    "installed": "system_ext/lib64/libAPSClient-jni.so",
+    "stock_sha256": "f108594528f2c191d2ce59165d20335415d87233fd1d681625897058e7414047",
+    "sha256": "f108594528f2c191d2ce59165d20335415d87233fd1d681625897058e7414047",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAncFilter_jni.so",
+    "installed": "system_ext/lib64/libAncFilter_jni.so",
+    "stock_sha256": "6a7c9150300ef9daec97ca7eae1917d119ef89710fa5c9f40687db05f17b99a0",
+    "sha256": "6a7c9150300ef9daec97ca7eae1917d119ef89710fa5c9f40687db05f17b99a0",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAncHumBokeh-jni.so",
+    "installed": "system_ext/lib64/libAncHumBokeh-jni.so",
+    "stock_sha256": "6c8593cc045e59fa38cbe7e2a09984f63779dfc58cb3521a68cd356d3ed9a7df",
+    "sha256": "6c8593cc045e59fa38cbe7e2a09984f63779dfc58cb3521a68cd356d3ed9a7df",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAncHumanDoubleExposure-jni.so",
+    "installed": "system_ext/lib64/libAncHumanDoubleExposure-jni.so",
+    "stock_sha256": "a85f011191b93e589db6b89c7f686f1fc4dcbe2a54d3040b3588bef8002d1878",
+    "sha256": "a85f011191b93e589db6b89c7f686f1fc4dcbe2a54d3040b3588bef8002d1878",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAncHumanRetain-jni_v2.so",
+    "installed": "system_ext/lib64/libAncHumanRetain-jni_v2.so",
+    "stock_sha256": "a215ec369939e920325aa1109a16df5d510136dc338c906e24fe809acf9aa851",
+    "sha256": "a215ec369939e920325aa1109a16df5d510136dc338c906e24fe809acf9aa851",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAncHumanSegFigureFusion-jni.so",
+    "installed": "system_ext/lib64/libAncHumanSegFigureFusion-jni.so",
+    "stock_sha256": "af7f8d7d40174d6052d833a96104c2cb0925bd1cd15b47e16ebdc73c0cf33a14",
+    "sha256": "af7f8d7d40174d6052d833a96104c2cb0925bd1cd15b47e16ebdc73c0cf33a14",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAncHumanVideo-jni.so",
+    "installed": "system_ext/lib64/libAncHumanVideo-jni.so",
+    "stock_sha256": "369e7f0db2b1b57c574cbdced5b2188a8362fb7aa9116ee0c178730e71821de1",
+    "sha256": "369e7f0db2b1b57c574cbdced5b2188a8362fb7aa9116ee0c178730e71821de1",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libApsFaceBeautyPreviewProductJni.so",
+    "installed": "system_ext/lib64/libApsFaceBeautyPreviewProductJni.so",
+    "stock_sha256": "6bd649368f468872b966fd1a45eebb02e4eca3b0f333b7455e1163d683710286",
+    "sha256": "b50474819cce69bf8680e04d5ceaf8cc440c5cdceec59c3118d0cdbf035d6ace",
+    "soname_fixed": true
+  },
+  {
+    "source": "my_product/lib64/libApsSuperEISPreviewJni.so",
+    "installed": "system_ext/lib64/libApsSuperEISPreviewJni.so",
+    "stock_sha256": "9b4d9afe4b219fdad4692b8f6f68e23201ad11c6d583ebbd9edd9086e0ec1975",
+    "sha256": "9b4d9afe4b219fdad4692b8f6f68e23201ad11c6d583ebbd9edd9086e0ec1975",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAvatarEngineRender.so",
+    "installed": "system_ext/lib64/libAvatarEngineRender.so",
+    "stock_sha256": "8c3484834fe71fc5e5b288dac64b98b916a678d5eebee60e843560eb04608c88",
+    "sha256": "8c3484834fe71fc5e5b288dac64b98b916a678d5eebee60e843560eb04608c88",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libAvatarEngineRenderNative.so",
+    "installed": "system_ext/lib64/libAvatarEngineRenderNative.so",
+    "stock_sha256": "744fdcf12260b43a7198292831bb11e8ef7c96deda0d460f4357c64e8e01e29c",
+    "sha256": "744fdcf12260b43a7198292831bb11e8ef7c96deda0d460f4357c64e8e01e29c",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libCombineLut.so",
+    "installed": "system_ext/lib64/libCombineLut.so",
+    "stock_sha256": "793b4076808a9f18ced81c1fc962ae3efd6b015bf4d0dacf3b120dbf919d22b6",
+    "sha256": "793b4076808a9f18ced81c1fc962ae3efd6b015bf4d0dacf3b120dbf919d22b6",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libCombineLutJni.so",
+    "installed": "system_ext/lib64/libCombineLutJni.so",
+    "stock_sha256": "35472d1dcb09f6e09ee346f35eb07ca863b5fa2debf68f2be41bc44aaf9f880b",
+    "sha256": "35472d1dcb09f6e09ee346f35eb07ca863b5fa2debf68f2be41bc44aaf9f880b",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libHdrTransform-platform-jni.so",
+    "installed": "system_ext/lib64/libHdrTransform-platform-jni.so",
+    "stock_sha256": "e42f765433880f492a47672239e451e75ddde4f705b640efdbaf23bef416947d",
+    "sha256": "e42f765433880f492a47672239e451e75ddde4f705b640efdbaf23bef416947d",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libMsEffectSdk.so",
+    "installed": "system_ext/lib64/libMsEffectSdk.so",
+    "stock_sha256": "dd0b364ec4fe00b84cf357d1031d435949882ba2327f1d6b1edfaa867ca7df95",
+    "sha256": "dd0b364ec4fe00b84cf357d1031d435949882ba2327f1d6b1edfaa867ca7df95",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libOplusStringJNI.so",
+    "installed": "system_ext/lib64/libOplusStringJNI.so",
+    "stock_sha256": "b773ad8a3e5d23ecf08ba9fe6bc683d0a629e1f89af7c18be8dc5f7ae2b0a67e",
+    "sha256": "b773ad8a3e5d23ecf08ba9fe6bc683d0a629e1f89af7c18be8dc5f7ae2b0a67e",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libarcsoft_panorama_burstcapture.so",
+    "installed": "system_ext/lib64/libarcsoft_panorama_burstcapture.so",
+    "stock_sha256": "502d65b2db056d1d6b2708e01dd99254504b0ea7037078c443e2e9337107f4ac",
+    "sha256": "502d65b2db056d1d6b2708e01dd99254504b0ea7037078c443e2e9337107f4ac",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libarcsoft_wideselfie.so",
+    "installed": "system_ext/lib64/libarcsoft_wideselfie.so",
+    "stock_sha256": "13829f89e8e5d429fffe688b7b940444acdc149c90f0f0513ab48dcae94d47a1",
+    "sha256": "13829f89e8e5d429fffe688b7b940444acdc149c90f0f0513ab48dcae94d47a1",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libjni_burstpmk.so",
+    "installed": "system_ext/lib64/libjni_burstpmk.so",
+    "stock_sha256": "b69b2a7eebb2df0a90822ce0bf38716e78fd2ee20c4b392f3f80f37e4fab4aae",
+    "sha256": "b69b2a7eebb2df0a90822ce0bf38716e78fd2ee20c4b392f3f80f37e4fab4aae",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libjni_wideselfie.so",
+    "installed": "system_ext/lib64/libjni_wideselfie.so",
+    "stock_sha256": "654d44fa4bd00f359002421c2d05f5f4610bf6d4d1eaa9f4dcd4f17d5fa24405",
+    "sha256": "654d44fa4bd00f359002421c2d05f5f4610bf6d4d1eaa9f4dcd4f17d5fa24405",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/liblivephoto.frc.jni.so",
+    "installed": "system_ext/lib64/liblivephoto.frc.jni.so",
+    "stock_sha256": "75e2decf790244fe883cbc5b781f6c9e2f0d3efc1eb4f7586996b344351f557d",
+    "sha256": "75e2decf790244fe883cbc5b781f6c9e2f0d3efc1eb4f7586996b344351f557d",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libsingle_camera_bokeh2_native.so",
+    "installed": "system_ext/lib64/libsingle_camera_bokeh2_native.so",
+    "stock_sha256": "77a637039b98cccdbcbdd7c9316e14ed16c8b8cf9ef0d1fcc47b4fbb306c3773",
+    "sha256": "77a637039b98cccdbcbdd7c9316e14ed16c8b8cf9ef0d1fcc47b4fbb306c3773",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libsingle_camera_bokeh_native.so",
+    "installed": "system_ext/lib64/libsingle_camera_bokeh_native.so",
+    "stock_sha256": "7bccbd0dfdfa2560087711a37b21e2a71ec7b867afbf35098c2fc92884e68267",
+    "sha256": "7bccbd0dfdfa2560087711a37b21e2a71ec7b867afbf35098c2fc92884e68267",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libst_mobile.so",
+    "installed": "system_ext/lib64/libst_mobile.so",
+    "stock_sha256": "a3455d5a2f35f467acd7d183d23a60b52d79d002e029b61b2079385ba60806cd",
+    "sha256": "a3455d5a2f35f467acd7d183d23a60b52d79d002e029b61b2079385ba60806cd",
+    "soname_fixed": false
+  },
+  {
+    "source": "my_product/lib64/libst_sticker_jni.so",
+    "installed": "system_ext/lib64/libst_sticker_jni.so",
+    "stock_sha256": "19b28f651871239b6df0ad1a7da657cbdd4e7817f223abbfc169e52df10a6526",
+    "sha256": "b4182a93ff0197ce391d57c9073d4b91c9f52a6e282f2994a1652a33951e2f10",
+    "soname_fixed": true
+  },
+  {
+    "source": "system_ext/lib64/libAPSClient-cmd-jni-extension.oplus.so",
+    "installed": "system_ext/lib64/libAPSClient-cmd-jni-extension.oplus.so",
+    "stock_sha256": "91eb27cbeec32fdc606a635e76736bea92cbad7a3cb36bc13c27f7c9d980dc87",
+    "sha256": "c4a9a0c32ea043e38b2261e7c8ff47c0eb5d0cc7c56ed486fa131c29b99d17c2",
+    "soname_fixed": true
+  },
+  {
+    "source": "system_ext/lib64/libHeifEncoderWrapper.so",
+    "installed": "system_ext/lib64/libHeifEncoderWrapper.so",
+    "stock_sha256": "f343ce678a5a252df652a168f7dc9e466a015ba70b3014eab4e9b37d7fe2cbe1",
+    "sha256": "f343ce678a5a252df652a168f7dc9e466a015ba70b3014eab4e9b37d7fe2cbe1",
+    "soname_fixed": false
+  },
+  {
+    "source": "system_ext/lib64/libHeifWinBufExchg-jni.so",
+    "installed": "system_ext/lib64/libHeifWinBufExchg-jni.so",
+    "stock_sha256": "0933575b917cfac3034562c9076505ddd9009ef7a7385900f3291a72c82b79e0",
+    "sha256": "0933575b917cfac3034562c9076505ddd9009ef7a7385900f3291a72c82b79e0",
+    "soname_fixed": false
+  },
+  {
+    "source": "system_ext/lib64/libNativeWinBuffExchange.so",
+    "installed": "system_ext/lib64/libNativeWinBuffExchange.so",
+    "stock_sha256": "59cd5a8bcc724f6e43860405d421f5e81839f1c7a969e6b2562367142423b155",
+    "sha256": "59cd5a8bcc724f6e43860405d421f5e81839f1c7a969e6b2562367142423b155",
+    "soname_fixed": false
+  },
+  {
+    "source": "system_ext/lib64/libOplusStringJNI-extension.oplus.so",
+    "installed": "system_ext/lib64/libOplusStringJNI-extension.oplus.so",
+    "stock_sha256": "e72defa961afd8828aa40f9acd936a77c1ff8b722a98baacdfd44dddc55f2633",
+    "sha256": "e72defa961afd8828aa40f9acd936a77c1ff8b722a98baacdfd44dddc55f2633",
+    "soname_fixed": false
+  },
+  {
+    "source": "system_ext/lib64/libapssuspend-jni.oplus.so",
+    "installed": "system_ext/lib64/libapssuspend-jni.oplus.so",
+    "stock_sha256": "5d5524b3e99f74c9a35a7298feda9501798d634dc79ca70ffc72893901b96cdb",
+    "sha256": "5d5524b3e99f74c9a35a7298feda9501798d634dc79ca70ffc72893901b96cdb",
+    "soname_fixed": false
+  },
+  {
+    "source": "system_ext/lib64/liboplusheifwriter.so",
+    "installed": "system_ext/lib64/liboplusheifwriter.so",
+    "stock_sha256": "ce75251a6e021484c2191b99577e615c41d8b8ed9f3eb4f28eca7db99fe0d677",
+    "sha256": "ce75251a6e021484c2191b99577e615c41d8b8ed9f3eb4f28eca7db99fe0d677",
+    "soname_fixed": false
+  },
+  {
+    "source": "odm/lib64/hw/camera.oemlayer.v2.so",
+    "installed": "odm/lib64/hw/camera.oemlayer.v2.so",
+    "stock_sha256": "73177634d1353d29222883570a6864b07d7e0915067d9e5646b9eaceffcfe3d9",
+    "sha256": "73177634d1353d29222883570a6864b07d7e0915067d9e5646b9eaceffcfe3d9",
+    "soname_fixed": false
+  },
+  {
+    "source": "odm/lib64/libOplusSecurity.so",
+    "installed": "odm/lib64/libOplusSecurity.so",
+    "stock_sha256": "e641163a7d037dd9007f0421713aa2d6beeb3341f2fa752c583c93c14689edbe",
+    "sha256": "e641163a7d037dd9007f0421713aa2d6beeb3341f2fa752c583c93c14689edbe",
+    "soname_fixed": false
+  },
+  {
+    "source": "odm/lib64/libsensorbridge.so",
+    "installed": "odm/lib64/libsensorbridge.so",
+    "stock_sha256": "cc8267ce357aecbe60f8981720d791e3932d441cfc1e5c82ae6169cdeefe92e0",
+    "sha256": "cc8267ce357aecbe60f8981720d791e3932d441cfc1e5c82ae6169cdeefe92e0",
+    "soname_fixed": false
+  },
+  {
+    "source": "vendor/lib64/libiccprofile.so",
+    "installed": "vendor/lib64/libiccprofile.so",
+    "stock_sha256": "06038fbb66b457a71bb3cce19769b518f2c5805688915e8f92ba26efc6c2c5dd",
+    "sha256": "06038fbb66b457a71bb3cce19769b518f2c5805688915e8f92ba26efc6c2c5dd",
+    "soname_fixed": false
+  }
+]

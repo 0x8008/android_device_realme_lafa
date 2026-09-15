@@ -12,6 +12,8 @@
   <extend-project path="hardware/qcom-caf/sm8850/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" revision="f75d1c5fa09e4ed507670fda90a5d6ac082f4dfd" />
   <extend-project path="hardware/qcom-caf/sm8850/display/hal" name="LineageOS/android_hardware_qcom_display" revision="511d5ca4731479f58c398150ff7f4a59615759f8" />
   <extend-project path="vendor/extras" name="vendor_extras" revision="a219955839e7b022874a2bfff21573168d169e7d" />
+  <extend-project path="bionic" name="bionic" revision="7ba6adb9329eb5dfafd9d90e5e800e1b239493d2" />
+  <extend-project path="frameworks/native" name="frameworks_native" revision="d91d83e5adba7654d9c587e8c375bec70da4e3f0" />
   <extend-project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" revision="06594f29f47de6df46167983f9567be58212974a" />
   <extend-project path="device/qcom/sepolicy_vndr/sm8850" name="LineageOS/android_device_qcom_sepolicy_vndr" revision="bacc60b6bd567a078e431eac16b6fefa83413245" />
 </manifest>

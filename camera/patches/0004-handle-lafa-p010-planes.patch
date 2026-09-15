@@ -1,0 +1,53 @@
+--- a/libs/nativewindow/AHardwareBuffer.cpp
++++ b/libs/nativewindow/AHardwareBuffer.cpp
+@@ -37,6 +37,11 @@
+ 
+ static constexpr int kFdBufferSize = 128 * sizeof(int);  // 128 ints
+ 
++#ifdef LAFA_CAMERA_P010_VENUS
++// Qualcomm P010 VENUS: two-byte Y samples and interleaved 10-bit Cb/Cr.
++static constexpr uint32_t kLafaP010Venus = 0x7FA30C0A;
++#endif
++
+ using namespace android;
+ 
+ // ----------------------------------------------------------------------------
+@@ -341,7 +346,11 @@
+         // plane
+         if (format == AHARDWAREBUFFER_FORMAT_YCbCr_P010 ||
+             format == AHARDWAREBUFFER_FORMAT_YCbCr_P210 ||
+-            format == AHARDWAREBUFFER_FORMAT_YCbCr_422_I) {
++            format == AHARDWAREBUFFER_FORMAT_YCbCr_422_I
++#ifdef LAFA_CAMERA_P010_VENUS
++            || format == kLafaP010Venus
++#endif
++        ) {
+             outPlanes->planes[0].pixelStride = 2;
+         } else {
+             outPlanes->planes[0].pixelStride = 1;
+@@ -764,6 +773,11 @@
+         case AHARDWAREBUFFER_FORMAT_YCbCr_422_I:
+         case AHARDWAREBUFFER_FORMAT_YCbCr_P010:
+         case AHARDWAREBUFFER_FORMAT_YCbCr_P210:
++#ifdef LAFA_CAMERA_P010_VENUS
++        // APS derives scanlines from the Y/UV plane addresses. Returning a
++        // single raw plane for this vendor format leaves UV null.
++        case kLafaP010Venus:
++#endif
+             return true;
+         default:
+             return false;
+--- a/libs/nativewindow/Android.bp
++++ b/libs/nativewindow/Android.bp
+@@ -94,7 +94,10 @@
+         "-Werror",
+         "-Wno-enum-compare",
+         "-Wno-unused-function",
+-    ],
++    ] + select(soong_config_variable("LAFA_CAMERA", "enabled"), {
++        true: ["-DLAFA_CAMERA_P010_VENUS"],
++        default: [],
++    }),
+ 
+     version_script: "libnativewindow.map.txt",
+ 

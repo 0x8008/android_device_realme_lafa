@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="lafa-camera-compat" file="/system_ext/framework/lafa-camera-compat.jar" />
+    <library name="com.oplus.camera.unit.sdk"
+        file="/system_ext/framework/com.oplus.camera.unit.sdk.jar"
+        dependency="lafa-camera-compat" />
+    <library name="com.oplus.camera.unit.sdk.adapter"
+        file="/system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar"
+        dependency="lafa-camera-compat" />
+</permissions>
