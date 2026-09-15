@@ -41,14 +41,16 @@ manage slots. Stop if any command fails.
    fastboot flash super super-reset-lafa-0x467000000-sparse.img
    fastboot reboot recovery
    ```
-4. At recovery's main menu, paste this one-time command to prepare sideload:
-   ```sh
-   adb shell "(grep -q ' /metadata ' /proc/mounts || mount -t f2fs /dev/block/by-name/metadata /metadata) && mkdir -p /metadata/ota/snapshots && chown 0:1000 /metadata/ota /metadata/ota/snapshots && chmod 0750 /metadata/ota /metadata/ota/snapshots && restorecon -RF /metadata/ota && sync"
-   ```
-5. Select **Apply update → Apply from ADB**, then run:
+4. Select **Apply update → Apply from ADB**, then run:
    ```sh
    adb sideload rom.zip
    ```
+5.  **Only if the previous step failed;** at recovery's main menu, paste this one-time command to prepare sideload:
+   ```sh
+   adb shell "(grep -q ' /metadata ' /proc/mounts || mount -t f2fs /dev/block/by-name/metadata /metadata) && mkdir -p /metadata/ota/snapshots && chown 0:1000 /metadata/ota /metadata/ota/snapshots && chmod 0750 /metadata/ota /metadata/ota/snapshots && restorecon -RF /metadata/ota && sync"
+   ```
+   and retry step 4.
+
 6. When recovery reports success, decline extra packages and select
    **Reboot system now**. Google apps are already included.
 
